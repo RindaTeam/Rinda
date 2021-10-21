@@ -1,6 +1,6 @@
 ------------------------------------------------
 -- This Source Was Developed By (Rio) @tsttt.--
---   This Is The Source Channel @Source_Rinda .   --
+--   This Is The ⊀ 𝖱𝗂𝗇𝖣𝖺 🐲 @Source_Rinda .   --
 --                - Rinda -                 --
 --        -- https://t.me/Source_Rinda --         --
 ------------------------------------------------ 
@@ -136,7 +136,7 @@ __________.__            .___
 |    |   \  |   |  \/ /_/ | / __ \_
 |____|_  /__|___|  /\____ |(____  /
        \/        \/      \/     \/
-]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n----------------------------------------- ┉ ┉ ┉ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m----------------------------------------- ┉ ┉ ┉ ┉\27[m")
+]]..'\27[m'.."\n\27[35mServer Information ↬↯\n----------------------------------------- ┉ ┉ ┉ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m----------------------------------------- ┉ ┉ ┉ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId
 SudoIds = {Config.SudoIds,1558668590,1897626429}
@@ -144,7 +144,7 @@ Rinda = Config.Rinda
 TokenBot = Config.TokenBot
 NameBot = (DevRio:get(Rinda..'Rio:NameBot') or 'ريندا')
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
-FilesPrint = "\27[35m".."\nAll Source Files Started ↬ ⤈ \n----------------------------------------- ┉ ┉ ┉ ┉\n"..'\27[m'
+FilesPrint = "\27[35m".."\nAll Source Files Started ↬↯\n----------------------------------------- ┉ ┉ ┉ ┉\n"..'\27[m'
 FilesNumber = 0
 for v in io.popen('ls Files'):lines() do
 if v:match(".lua$") then
@@ -1416,11 +1416,11 @@ local Rio = DataText:match('/DelList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local Del = DevRio:get(Rinda..'Rio:Del')
 local Text = [[
-⊀︰اهلا بك في قائمة اوامر الرتب ↢ ⤈ 
+⊀︰اهلا بك في قائمة اوامر الرتب ↢↯
 -----------------------------------------
 *⊀︰يمكنك مسح رتب المجموعه من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 if Sudo(data) then
@@ -1813,11 +1813,11 @@ local Rio = DataText:match('/FilterList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local Filter = DevRio:get(Rinda..'Rio:Filter')
 local Text = [[
-⊀︰اهلا بك في قائمة المنع ↢ ⤈ 
+⊀︰اهلا بك في قائمة المنع ↢↯
 -----------------------------------------
 *⊀︰يمكنك مسح الممنوعات من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• مسح المتحركات •",callback_data="/DelGif:"..data.sender_user_id_},{text="• مسح الملصقات •",callback_data="/DelSticker:"..data.sender_user_id_}},{{text="• مسح الصور •",callback_data="/DelPhoto:"..data.sender_user_id_},{text="• مسح الكلمات •",callback_data="/DelTextfilter:"..data.sender_user_id_}},{{text="• مسح قوائم المنع •",callback_data="/DelAllFilter:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -1874,11 +1874,11 @@ local Rio = DataText:match('/locklist:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local locklist = DevRio:get(Rinda..'Rio:locklist')
 local Text = [[
-⊀︰اهلا بك في قائمة القفل والفتح ↢ ⤈ 
+⊀︰اهلا بك في قائمة القفل والفتح ↢↯
 -----------------------------------------
 *⊀︰يمكنك فتح و قفل الاوامر من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• قفل الدردشه •",callback_data="/lockText:"..data.sender_user_id_},{text="• فتح الدردشه •",callback_data="/unlockText:"..data.sender_user_id_}},{{text="• قفل الدخول •",callback_data="/lockjoin:"..data.sender_user_id_},{text="• فتح الدخول •",callback_data="/unlockjoin:"..data.sender_user_id_}},{{text="• قفل البوتات •",callback_data="/LockBotList:"..data.sender_user_id_},{text="• فتح البوتات •",callback_data="/unlockBot:"..data.sender_user_id_}},{{text="• قفل الاشعارات •",callback_data="/lockTagServr:"..data.sender_user_id_},{text="• فتح الاشعارات •",callback_data="/unlockTagServr:"..data.sender_user_id_}},{{text="• قفل التعديل •",callback_data="/lockEditMsgs:"..data.sender_user_id_},{text="• فتح التعديل •",callback_data="/unlockEditMsgs:"..data.sender_user_id_}},{{text="• قفل الملصقات •",callback_data="/lockStickers:"..data.sender_user_id_},{text="• فتح الملصقات •",callback_data="/unlockStickers:"..data.sender_user_id_}},{{text="• قفل المتحركه •",callback_data="/lockGifs:"..data.sender_user_id_},{text="• فتح المتحركه •",callback_data="/unlockGifs:"..data.sender_user_id_}},{{text="• قفل الفيديو •",callback_data="/lockVideos:"..data.sender_user_id_},{text="• فتح الفيديو •",callback_data="/unlockVideos:"..data.sender_user_id_}},{{text="• قفل الصور •",callback_data="/unlockPhoto:"..data.sender_user_id_},{text="• فتح الصور •",callback_data="/unlockPhoto:"..data.sender_user_id_}},{{text="• قفل التوجيه •",callback_data="/lockForwards:"..data.sender_user_id_},{text="• فتح التوجيه •",callback_data="/unlockForwards:"..data.sender_user_id_}},{{text="• قفل التكرار •",callback_data="/LockSpamList:"..data.sender_user_id_},{text="• فتح التكرار •",callback_data="/unlockSpam:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -1891,13 +1891,13 @@ local Rio = DataText:match('/LockBotList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local LockBotList = DevRio:get(Rinda..'Rio:LockBotList')
 local Text = [[
-⊀︰اهلا بك في قائمة قفل البوتات  ↢ ⤈ 
+⊀︰اهلا بك في قائمة قفل البوتات  ↢↯
 -----------------------------------------
 *⊀︰بالطرد*
 *⊀︰بالكتم*
 *⊀︰بالتقيد*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• قفل البوتات بالطرد •",callback_data="/lockBotKick:"..data.sender_user_id_},{text="• قفل البوتات بالتقيد •",callback_data="/lockBotKed:"..data.sender_user_id_}},{{text="• قفل البوتات بالكتم •",callback_data="/lockBotDel:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• رجوع •",callback_data="/locklist:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -1910,14 +1910,14 @@ local Rio = DataText:match('/LockSpamList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local LockSpamList = DevRio:get(Rinda..'Rio:LockSpamList')
 local Text = [[
-⊀︰اهلا بك في قائمة قفل التكرار  ↢ ⤈ 
+⊀︰اهلا بك في قائمة قفل التكرار  ↢↯
 -----------------------------------------
 *⊀︰بالطرد*
 *⊀︰بالكتم*
 *⊀︰بالتقيد*
 *⊀︰بالحذف*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• قفل التكرار بالطرد •",callback_data="/lockSpamKick:"..data.sender_user_id_},{text="• قفل التكرار بالتقيد •",callback_data="/lockSpamKed:"..data.sender_user_id_}},{{text="• قفل التكرار بالحذف •",callback_data="/lockSpamDel:"..data.sender_user_id_},{text="• قفل التكرار بالكتم •",callback_data="/lockSpamMute:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• رجوع •",callback_data="/locklist:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -2303,7 +2303,7 @@ if DataText and DataText:match('/LinkText:'..tonumber(data.sender_user_id_)..'(.
 local Rio = DataText:match('/LinkText:'..tonumber(data.sender_user_id_)..'(.*)')
 if not DevRio:get(Rinda..'Rio:Lock:GpLinks'..data.chat_id_) then 
 if DevRio:get(Rinda.."Rio:Groups:Links"..data.chat_id_) then
-send(data.chat_id_, data.id_, "⊀︰Group Link ↬ ⤈ \n-----------------------------------------\n"..DevRio:get(Rinda.."Rio:Groups:Links"..data.chat_id_), 1, "html")
+send(data.chat_id_, data.id_, "⊀︰Group Link ↬↯\n-----------------------------------------\n"..DevRio:get(Rinda.."Rio:Groups:Links"..data.chat_id_), 1, "html")
 else 
 send(data.chat_id_, data.id_, 1, '⊀︰لايوجد رابط ارسل ↢ ضع رابط او ارسل ↢ انشاء رابط للانشاء', 1, 'md')
 end
@@ -2318,11 +2318,11 @@ local Rio = DataText:match('/lockorder:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local order = DevRio:get(Rinda..'Rio:order')
 local Text = [[
-⊀︰اهلا بك في قائمة اوامر التعطيل والتفعيل ↢ ⤈ 
+⊀︰اهلا بك في قائمة اوامر التعطيل والتفعيل ↢↯
 -----------------------------------------
 ⊀︰يمكنك التعطيل والتفعيل عن طريق الازرار بلاسفل
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• تعطيل الايدي بالصوره •",callback_data="/LockIdPhoto:"..data.sender_user_id_},{text="• تفعيل الايدي بالصوره •",callback_data="/UnLockIdPhoto:"..data.sender_user_id_}},{{text="• تعطيل الايدي •",callback_data="/LockId:"..data.sender_user_id_},{text="• تفعيل الايدي •",callback_data="/UnLockId:"..data.sender_user_id_}},{{text="• تعطيل الرابط •",callback_data="/LockGpLinks:"..data.sender_user_id_},{text="• تفعيل الرابط •",callback_data="/UnLockGpLinks:"..data.sender_user_id_}},{{text="• تعطيل الرابط انلاين •",callback_data="/LockGpLinksinline:"..data.sender_user_id_},{text="• تفعيل الرابط انلاين •",callback_data="/UnLockGpLinksinline:"..data.sender_user_id_}},{{text="• تعطيل الترحيب •",callback_data="/LockWelcome:"..data.sender_user_id_},{text="• تفعيل الترحيب •",callback_data="/UnLockWelcome:"..data.sender_user_id_}},{{text="• تعطيل الردود المطور •",callback_data="/LockAllRed:"..data.sender_user_id_},{text="• تفعيل الردود المطور •",callback_data="/UnLockAllRed:"..data.sender_user_id_}},{{text="• تعطيل ردود المدير •",callback_data="/LockGpRed:"..data.sender_user_id_},{text="• تفعيل ردود المدير •",callback_data="/UnLockGpRed:"..data.sender_user_id_}},{{text="• تعطيل نزلني •",callback_data="/LockDelMe:"..data.sender_user_id_},{text="• تفعيل نزلني •",callback_data="/UnLockDelMe:"..data.sender_user_id_}},{{text="• تعطيل اطردني •",callback_data="/LockKickMe:"..data.sender_user_id_},{text="• تفعيل اطردني •",callback_data="/UnLockKickMe:"..data.sender_user_id_}},{{text="• تعطيل الحظر •",callback_data="/LockKickBan:"..data.sender_user_id_},{text="• تفعيل الحظر •",callback_data="/UnLockKickBan:"..data.sender_user_id_}},{{text="• تعطيل الرفع •",callback_data="/LockProSet:"..data.sender_user_id_},{text="• تفعيل الرفع •",callback_data="/UnLockProSet:"..data.sender_user_id_}},{{text="• تعطيل الالعاب •",callback_data="/LockGames:"..data.sender_user_id_},{text="• تفعيل الالعاب •",callback_data="/UnLockGames:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -2535,7 +2535,7 @@ local Rio = DataText:match('/HelpList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local Help = DevRio:get(Rinda..'Rio:Help')
 local Text = [[
-⊀︰اهلا بك في قائمة الاوامر ↢ ⤈ 
+⊀︰اهلا بك في قائمة الاوامر ↢↯
 -----------------------------------------
 ⊀︰م1 ↢ اوامر الحمايه
 ⊀︰م2 ↢ اوامر الادمنيه
@@ -2544,7 +2544,7 @@ local Text = [[
 ⊀︰م5 ↢ اوامر المطورين
 ⊀︰م6 ↢ اوامر الاعضاء
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• اوامر الادمنيه •",callback_data="/HelpList2:"..data.sender_user_id_},{text="• اوامر الحمايه •",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="• اوامر المنشئين •",callback_data="/HelpList4:"..data.sender_user_id_},{text="• اوامر المدراء •",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="• اوامر الاعضاء •",callback_data="/HelpList6:"..data.sender_user_id_},{text="• اوامر المطورين •",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اوامر الرتب •",callback_data="/DelList:"..data.sender_user_id_}},{{text="• التفعيل و التعطيل •",callback_data="/lockorder:"..data.sender_user_id_},{text="• القفل و الفتح •",callback_data="/locklist:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}}}
@@ -2606,7 +2606,7 @@ local Text = [[
 ⊀︰البوتات بالطرد
 ⊀︰البوتات بالتقيد
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• اوامر الادمنيه •",callback_data="/HelpList2:"..data.sender_user_id_}},{{text="• اوامر المنشئين •",callback_data="/HelpList4:"..data.sender_user_id_},{text="• اوامر المدراء •",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="• اوامر الاعضاء •",callback_data="/HelpList6:"..data.sender_user_id_},{text="• اوامر المطورين •",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2675,7 +2675,7 @@ local Text = [[
 ⊀︰تقييد يوم + عدد الايام
 ⊀︰الغاء تقييد ↢ لالغاء التقييد بالوقت
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 if SudoBot(data) then
@@ -2742,7 +2742,7 @@ local Text = [[
 ⊀︰ردود المدير • ردود المطور • التحقق
 ⊀︰ضافني • حساب العمر • الزخرفه
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 if SudoBot(data) then
@@ -2801,7 +2801,7 @@ local Text = [[
 ⊀︰المنشئين الاساسيين 
 ⊀︰حذف جميع الرتب
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 if SudoBot(data) then
@@ -2883,7 +2883,7 @@ local Text = [[
 ⊀︰ترحيب البوت • المغادره
 ⊀︰البوت الخدمي • التواصل
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 if SudoBot(data) then
@@ -2925,7 +2925,7 @@ local Text = [[
 ⊀︰تحويل + بالرد ↢ صوره • ملصق • صوت • بصمه
 ⊀︰انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 if SudoBot(data) then
@@ -2989,7 +2989,7 @@ end
 if Constructor(msg) then
 if text == "الاوامر المضافه" and ChCheck(msg) then
 local List = DevRio:smembers(Rinda.."List:Cmd:Group:New"..msg.chat_id_.."") 
-t = "⊀︰قائمة الاوامر المضافه ↢ ⤈ \n-----------------------------------------\n"
+t = "⊀︰قائمة الاوامر المضافه ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 Cmds = DevRio:get(Rinda.."Set:Cmd:Group:New1"..msg.chat_id_..":"..v)
 if Cmds then 
@@ -3081,7 +3081,7 @@ if #List == 0 then
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰لاتوجد صلاحيات مضافه", 1, 'html')
 return false
 end
-t = "⊀︰قائمة الصلاحيات المضافه ↢ ⤈ \n-----------------------------------------\n"
+t = "⊀︰قائمة الصلاحيات المضافه ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 var = DevRio:get(Rinda.."Comd:New:rt:Rio:"..v..msg.chat_id_)
 if var then
@@ -3694,7 +3694,7 @@ local NameChat = NameChat:gsub("*","")
 local NameChat = NameChat:gsub("{","") 
 local NameChat = NameChat:gsub("}","") 
 if not Sudo(msg) and not Bot(msg) then
-SendText(DevId,"⊀︰تم طرد البوت من المجموعه ↢ ⤈ \n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢ ⤈ \n❨ `"..msg.chat_id_.."` ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
+SendText(DevId,"⊀︰تم طرد البوت من المجموعه ↢↯\n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢↯\n❨ `"..msg.chat_id_.."` ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
 end
 end,nil)
 end,nil)
@@ -3795,7 +3795,7 @@ else
 LinkGroup = 'لا يوجد'
 end
 DevRio:set(Rinda.."Rio:Groups:Links"..msg.chat_id_,LinkGroup) 
-SendText(DevId,"⊀︰تم تفعيل مجموعه جديده ↢ ⤈ \n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰موقعه في المجموعه ↢ "..status.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰عدد اعضاء المجموعه ↢ ❨ *"..NumMem.."* ❩\n⊀︰ايدي المجموعه ↢ ⤈ \n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
+SendText(DevId,"⊀︰تم تفعيل مجموعه جديده ↢↯\n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰موقعه في المجموعه ↢ "..status.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰عدد اعضاء المجموعه ↢ ❨ *"..NumMem.."* ❩\n⊀︰ايدي المجموعه ↢↯\n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
 end
 end end
 end,nil)
@@ -5804,7 +5804,7 @@ local Text = [[
 *⊀︰ريمكس*
 *⊀︰ميمز*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• غنيلي •",callback_data="/Song:"..msg.sender_user_id_},{text="• اغنيه •",callback_data="/mp3:"..msg.sender_user_id_}},{{text="• متحركه •",callback_data="/gif:"..msg.sender_user_id_},{text="• صوره •",callback_data="/photo:"..msg.sender_user_id_}},{{text="• انمي •",callback_data="/anime:"..msg.sender_user_id_},{text="• ريمكس •",callback_data="/remix:"..msg.sender_user_id_}},{{text="• ميمز •",callback_data="/memz:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -5939,7 +5939,7 @@ local Text = [[
 -----------------------------------------
 ⊀︰نقاطي • بيع نقاطي
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• الالعاب المتطوره •",callback_data="/GameInline:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -6102,7 +6102,7 @@ Welcome To Source
 ⊀︰[TeAm Rinda](https://t.me/Source_Rinda)
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '⊀ Source Channel',url="https://t.me/Source_Rinda"}},{{text = '⊀ Developer',url="t.me/WYYYYY"}}}
+keyboard.inline_keyboard = {{{text = '⊀ ⊀ 𝖱𝗂𝗇𝖣𝖺 🐲',url="https://t.me/Source_Rinda"}},{{text = '⊀ Developer',url="t.me/WYYYYY"}}}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Source_Rinda&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
@@ -8164,7 +8164,7 @@ end
 if Admin(msg) then
 if text == "المميزين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:VipMem:'..msg.chat_id_)
-text = "⊀︰قائمة المميزين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المميزين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8185,7 +8185,7 @@ if Manager(msg) then
 if text == "الادمنيه" and ChCheck(msg) or text == "الادمنية" and ChCheck(msg) then 
 local rio =  'Rio:Admins:'..msg.chat_id_
 local List = DevRio:smembers(Rinda..rio)
-text = "⊀︰قائمة الادمنيه ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة الادمنيه ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8205,7 +8205,7 @@ end end
 if Constructor(msg) then
 if text == "المدراء" and ChCheck(msg) or text == "مدراء" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Managers:'..msg.chat_id_)
-text = "⊀︰قائمة المدراء ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المدراء ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8223,7 +8223,7 @@ https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?chat_id='.
 end 
 if text == "المنظفين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Cleaner:'..msg.chat_id_)
-text = "⊀︰قائمة المنظفين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المنظفين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8243,7 +8243,7 @@ end end
 if BasicConstructor(msg) then
 if text == "المنشئين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Constructor:'..msg.chat_id_)
-text = "⊀︰قائمة المنشئين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المنشئين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8263,7 +8263,7 @@ end end
 if Owner(msg) then
 if text == "المالكين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Owner:'..msg.chat_id_)
-text = "⊀︰قائمة المالكين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المالكين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8281,7 +8281,7 @@ https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?chat_id='.
 end
 if text == "المنشئين الاساسيين" and ChCheck(msg) or text == "منشئين اساسيين" and ChCheck(msg) or text == "المنشئين الاساسين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:BasicConstructor:'..msg.chat_id_)
-text = "⊀︰قائمة المنشئين الاساسيين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المنشئين الاساسيين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8320,7 +8320,7 @@ end
 if Admin(msg) then
 if text == "المكتومين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Muted:'..msg.chat_id_)
-text = "⊀︰قائمة المكتومين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المكتومين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8339,7 +8339,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المقيدين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Tkeed:'..msg.chat_id_)
-text = "⊀︰قائمة المقيدين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المقيدين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8358,7 +8358,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المحظورين" and ChCheck(msg) or text == "المحضورين" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:Ban:'..msg.chat_id_)
-text = "⊀︰قائمة المحظورين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المحظورين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8377,7 +8377,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المطايه" and ChCheck(msg) or text == "المطاية" and ChCheck(msg) then
 local List = DevRio:smembers(Rinda..'User:Donky:'..msg.chat_id_)
-text = "⊀︰قائمة مطاية المجموعه ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة مطاية المجموعه ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8393,7 +8393,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "قائمه المنع" and RioConstructor(msg) and ChCheck(msg) then
 local List = DevRio:hkeys(Rinda..'Rio:Filters:'..msg.chat_id_)
-text = "⊀︰قائمة المنع ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المنع ↢↯\n-----------------------------------------\n"
 for k, v in pairs(List) do
 text = text..k..'~ ❨ '..v..' ❩\n'
 end
@@ -8409,7 +8409,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المطورين الاساسيين" and ChCheck(msg) and RioSudo(msg) or text == "الاساسيين" and RioSudo(msg) and ChCheck(msg) or text == "↢ الاساسيين ⊀" and RioSudo(msg) and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:RioSudo:')
-text = "⊀︰قائمة المطورين الاساسيين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المطورين الاساسيين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8428,7 +8428,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المطورين الثانويين" and SecondSudo(msg) and ChCheck(msg) or text == "الثانويين" and SecondSudo(msg) and ChCheck(msg) or text == "↢ الثانويين ⊀" and SecondSudo(msg) and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:SecondSudo:')
-text = "⊀︰قائمة المطورين الثانويين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المطورين الثانويين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8450,7 +8450,7 @@ if text == "قائمه العام" and ChCheck(msg) or text == "المحظوري
 local BanAll = DevRio:smembers(Rinda..'Rio:BanAll:')
 local MuteAll = DevRio:smembers(Rinda..'Rio:MuteAll:')
 if #BanAll ~= 0 then 
-text = "⊀︰قائمة المحظورين عام ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المحظورين عام ↢↯\n-----------------------------------------\n"
 for k,v in pairs(BanAll) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8462,7 +8462,7 @@ else
 text = ""
 end
 if #MuteAll ~= 0 then 
-text = text.."⊀︰قائمة المكتومين عام ↢ ⤈ \n-----------------------------------------\n"
+text = text.."⊀︰قائمة المكتومين عام ↢↯\n-----------------------------------------\n"
 for k,v in pairs(MuteAll) do
 local username = DevRio:get(Rinda..'Save:UserName'..v)
 if username then
@@ -8486,7 +8486,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "المطورين" and ChCheck(msg) or text == "↢ المطورين ⊀" and ChCheck(msg) then 
 local List = DevRio:smembers(Rinda..'Rio:SudoBot:')
-text = "⊀︰قائمة المطورين ↢ ⤈ \n-----------------------------------------\n"
+text = "⊀︰قائمة المطورين ↢↯\n-----------------------------------------\n"
 for k,v in pairs(List) do
 local sudouser = DevRio:get(Rinda..'Rio:Sudos'..v) 
 local username = DevRio:get(Rinda..'Save:UserName'..v)
@@ -9424,7 +9424,7 @@ if not SudoBot(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطورين فقط ', 1, 'md')
 else
 local list = DevRio:smembers(Rinda.."Rio:Groups")
-local t = '⊀︰مجموعات البوت ↢ ⤈ \n'
+local t = '⊀︰مجموعات البوت ↢↯\n'
 for k,v in pairs(list) do
 t = t..k.."~ : `"..v.."`\n" 
 end
@@ -10239,7 +10239,7 @@ end
 if text == "كشف البوتات" and ChCheck(msg) then 
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = msg.chat_id_:gsub("-100",""),filter_ = {ID = "ChannelMembersBots"},offset_ = 0,limit_ = 100 },function(extra,result,success)
 local admins = result.members_  
-text = '⊀︰*قائمة البوتات* ↢ ⤈ \n-----------------------------------------\n'
+text = '⊀︰*قائمة البوتات* ↢↯\n-----------------------------------------\n'
 local n = 0
 local t = 0
 for i=0 , #admins do 
@@ -10536,7 +10536,7 @@ local TXTE = "⊀︰اعدادات المجموعه ↢ ⤈\n-------------------
 .."⊀︰التكرار ↢ "..flood.."\n"
 .."⊀︰عدد التكرار ↢ "..Flood_Num.."\n"
 .."⊀︰عدد السبام ↢ "..spam_c.."\n"
-.."-----------------------------------------\n⊀︰[Source Channel](https://t.me/Source_Rinda)\n"
+.."-----------------------------------------\n⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)\n"
 Dev_Rio(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -11498,7 +11498,7 @@ LinkGroup = 'لا يوجد'
 end
 DevRio:set(Rinda.."Rio:Groups:Links"..msg.chat_id_,LinkGroup) 
 if not Sudo(msg) then
-SendText(DevId,"⊀︰تم تفعيل مجموعه جديده ↢ ⤈ \n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰عدد اعضاء المجموعه ↢ ❨ *"..NumMem.."* ❩\n⊀︰ايدي المجموعه ↢ ⤈ \n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
+SendText(DevId,"⊀︰تم تفعيل مجموعه جديده ↢↯\n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰عدد اعضاء المجموعه ↢ ❨ *"..NumMem.."* ❩\n⊀︰ايدي المجموعه ↢↯\n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
 end
 end
 end,nil)
@@ -11536,7 +11536,7 @@ LinkGroup = 'لا يوجد'
 end
 DevRio:set(Rinda.."Rio:Groups:Links"..msg.chat_id_,LinkGroup) 
 if not Sudo(msg) then
-SendText(DevId,"⊀︰تم تعطيل مجموعه جديده ↢ ⤈ \n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢ ⤈ \n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
+SendText(DevId,"⊀︰تم تعطيل مجموعه جديده ↢↯\n-----------------------------------------\n⊀︰بواسطة ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢↯\n❨ `"..msg.chat_id_.."` ❩\n⊀︰رابط المجموعه ↢ ⤈\n❨ ["..LinkGroup.."] ❩\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
 end
 end
 end,nil)
@@ -11570,7 +11570,7 @@ else
 LinkGroup = '⊀︰ليست لدي صلاحية الدعوه لهذه المجموعه !'
 end
 if not Sudo(msg) then
-SendText(DevId,"⊀︰هناك من بحاجه الى مساعده ↢ ⤈ \n-----------------------------------------\n⊀︰الشخص ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢ ⤈ \n❨ `"..msg.chat_id_.."` ❩\n"..LinkGroup.."\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
+SendText(DevId,"⊀︰هناك من بحاجه الى مساعده ↢↯\n-----------------------------------------\n⊀︰الشخص ↢ "..Name.."\n⊀︰اسم المجموعه ↢ ["..NameChat.."]\n⊀︰ايدي المجموعه ↢↯\n❨ `"..msg.chat_id_.."` ❩\n"..LinkGroup.."\n-----------------------------------------\n⊀︰الوقت ↢ "..os.date("%I:%M%p").."\n⊀︰التاريخ ↢ "..os.date("%Y/%m/%d").."",0,'md')
 end
 end,nil)
 end,nil)
@@ -11590,7 +11590,7 @@ for k,v in pairs(List) do
 local GroupsManagers = DevRio:scard(Rinda.."Rio:Managers:"..v) or 0
 local GroupsAdmins = DevRio:scard(Rinda.."Rio:Admins:"..v) or 0
 local Groupslink = DevRio:get(Rinda.."Rio:Groups:Links" ..v)
-Text = Text..k.." ↬ ⤈ \n⊀︰Group ID ↬ "..v.."\n⊀︰Group Link ↬ "..(Groupslink or "Not Found").."\n⊀︰Group Managers ↬ "..GroupsManagers.."\n⊀︰Group Admins ↬ "..GroupsAdmins.."\n-----------------------------------------\n"
+Text = Text..k.." ↬↯\n⊀︰Group ID ↬ "..v.."\n⊀︰Group Link ↬ "..(Groupslink or "Not Found").."\n⊀︰Group Managers ↬ "..GroupsManagers.."\n⊀︰Group Admins ↬ "..GroupsAdmins.."\n-----------------------------------------\n"
 end
 local File = io.open('GroupsBot.txt', 'w')
 File:write(Text)
@@ -11607,7 +11607,7 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Pv"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢ ⤈ \n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
 riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
 return false
 end 
@@ -11674,7 +11674,7 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Gp"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢ ⤈ \n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
 riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
 return false
 end 
@@ -11789,7 +11789,7 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Gp:Pin"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢ ⤈ \n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
 riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
 return false
 end 
@@ -12061,7 +12061,7 @@ if not Manager(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمدير واعلى فقط ', 1, 'md')
 else
 local redod = DevRio:smembers(Rinda..'Rio:Manager:GpRedod'..msg.chat_id_)
-MsgRep = '⊀︰قائمة الردود المتعدده ↢ ⤈ \n-----------------------------------------\n'
+MsgRep = '⊀︰قائمة الردود المتعدده ↢↯\n-----------------------------------------\n'
 for k,v in pairs(redod) do
 MsgRep = MsgRep..k..'~ (`'..v..'`) • {*العدد ↢ '..#DevRio:smembers(Rinda..'Rio:Text:GpTexts'..v..msg.chat_id_)..'*}\n' 
 end
@@ -12095,7 +12095,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'الردود' and Manager(msg) and ChCheck(msg) or text == 'ردود المدير' and Manager(msg) and ChCheck(msg) then
 local redod = DevRio:smembers(Rinda..'Rio:Manager:GpRed'..msg.chat_id_)
-MsgRep = '⊀︰ردود المدير ↢ ⤈ \n-----------------------------------------\n'
+MsgRep = '⊀︰ردود المدير ↢↯\n-----------------------------------------\n'
 for k,v in pairs(redod) do
 if DevRio:get(Rinda.."Rio:Gif:GpRed"..v..msg.chat_id_) then
 dp = 'متحركه 🎭'
@@ -12155,7 +12155,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if  text == "ردود المطور" and SecondSudo(msg) or text == "الردود العام" and SecondSudo(msg) or text == "ردود العام" and SecondSudo(msg) or text == "↢ الردود العام ⊀" and SecondSudo(msg) then
 local redod = DevRio:smembers(Rinda.."Rio:Sudo:AllRed")
-MsgRep = '⊀︰ردود المطور ↢ ⤈ \n-----------------------------------------\n'
+MsgRep = '⊀︰ردود المطور ↢↯\n-----------------------------------------\n'
 for k,v in pairs(redod) do
 if DevRio:get(Rinda.."Rio:Gif:AllRed"..v) then
 dp = 'متحركه 🎭'
@@ -12255,7 +12255,7 @@ end
 if text == "الاوامر" and ChCheck(msg) or text == "اوامر" and ChCheck(msg) or text == "مساعده" and ChCheck(msg) then
 local Help = DevRio:get(Rinda..'Rio:Help')
 local Text = [[
-⊀︰اهلا بك في قائمة الاوامر ↢ ⤈ 
+⊀︰اهلا بك في قائمة الاوامر ↢↯
 -----------------------------------------
 ⊀︰م1 ↢ اوامر الحمايه
 ⊀︰م2 ↢ اوامر الادمنيه
@@ -12264,7 +12264,7 @@ local Text = [[
 ⊀︰م5 ↢ اوامر المطورين
 ⊀︰م6 ↢ اوامر الاعضاء
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 if SudoBot(msg) then
@@ -12345,7 +12345,7 @@ local Text = [[
 ⊀︰البوتات بالطرد
 ⊀︰البوتات بالتقيد
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12420,7 +12420,7 @@ local Text = [[
 ⊀︰تقييد يوم + عدد الايام
 ⊀︰الغاء تقييد ↢ لالغاء التقييد بالوقت
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12485,7 +12485,7 @@ local Text = [[
 ⊀︰ردود المدير • ردود المطور • التحقق
 ⊀︰ضافني • حساب العمر • الزخرفه
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12544,7 +12544,7 @@ local Text = [[
 ⊀︰المنشئين الاساسيين 
 ⊀︰حذف جميع الرتب
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12628,7 +12628,7 @@ local Text = [[
 ⊀︰ترحيب البوت • المغادره
 ⊀︰البوت الخدمي • التواصل
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12674,7 +12674,7 @@ local Text = [[
 ⊀︰تحويل + بالرد ↢ صوره • ملصق • صوت • بصمه
 ⊀︰انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
@@ -12682,11 +12682,11 @@ end
 if text == "مسح الرتب" and Admin(msg) then
 local Del = DevRio:get(Rinda..'Rio:Del')
 local Text = [[
-⊀︰اهلا بك في قائمة اوامر الرتب ↢ ⤈ 
+⊀︰اهلا بك في قائمة اوامر الرتب ↢↯
 -----------------------------------------
 *⊀︰يمكنك مسح رتب المجموعه من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 if Sudo(msg) then
@@ -12715,11 +12715,11 @@ end
 if text == "مسح قائمه المنع" and RioConstructor(msg) then
 local Filter = DevRio:get(Rinda..'Rio:Filter')
 local Text = [[
-⊀︰اهلا بك في قائمة المنع ↢ ⤈ 
+⊀︰اهلا بك في قائمة المنع ↢↯
 -----------------------------------------
 *⊀︰يمكنك مسح الممنوعات من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• مسح المتحركات •",callback_data="/DelGif:"..msg.sender_user_id_},{text="• مسح الملصقات •",callback_data="/DelSticker:"..msg.sender_user_id_}},{{text="• مسح الصور •",callback_data="/DelPhoto:"..msg.sender_user_id_},{text="• مسح الكلمات •",callback_data="/DelTextfilter:"..msg.sender_user_id_}},{{text="• مسح قوائم المنع •",callback_data="/DelAllFilter:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -12731,11 +12731,11 @@ if Manager(msg) then
 if text == "قفل" or text == "القفل" or text == "قفل" or text == "فتح" or text == "اوامر القفل" or text == "اوامر القفل" or text == "اوامر الفتح و القفل" then
 local locklist = DevRio:get(Rinda..'Rio:locklist')
 local Text = [[
-⊀︰اهلا بك في قائمة القفل والفتح ↢ ⤈ 
+⊀︰اهلا بك في قائمة القفل والفتح ↢↯
 -----------------------------------------
 *⊀︰يمكنك قفل وفتح الاوامر من خلال الازرار اسفل*
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• قفل الدردشه •",callback_data="/lockText:"..msg.sender_user_id_},{text="• فتح الدردشه •",callback_data="/unlockText:"..msg.sender_user_id_}},{{text="• قفل الدخول •",callback_data="/lockjoin:"..msg.sender_user_id_},{text="• فتح الدخول •",callback_data="/unlockjoin:"..msg.sender_user_id_}},{{text="• قفل البوتات •",callback_data="/LockBotList:"..msg.sender_user_id_},{text="• فتح البوتات •",callback_data="/unlockBot:"..msg.sender_user_id_}},{{text="• قفل الاشعارات •",callback_data="/lockTagServr:"..msg.sender_user_id_},{text="• فتح الاشعارات •",callback_data="/unlockTagServr:"..msg.sender_user_id_}},{{text="• قفل التعديل •",callback_data="/lockEditMsgs:"..msg.sender_user_id_},{text="• فتح التعديل •",callback_data="/unlockEditMsgs:"..msg.sender_user_id_}},{{text="• قفل الملصقات •",callback_data="/lockStickers:"..msg.sender_user_id_},{text="• فتح الملصقات •",callback_data="/unlockStickers:"..msg.sender_user_id_}},{{text="• قفل المتحركه •",callback_data="/lockGifs:"..msg.sender_user_id_},{text="• فتح المتحركه •",callback_data="/unlockGifs:"..msg.sender_user_id_}},{{text="• قفل الفيديو •",callback_data="/lockVideos:"..msg.sender_user_id_},{text="• فتح الفيديو •",callback_data="/unlockVideos:"..msg.sender_user_id_}},{{text="• قفل الصور •",callback_data="/unlockPhoto:"..msg.sender_user_id_},{text="• فتح الصور •",callback_data="/unlockPhoto:"..msg.sender_user_id_}},{{text="• قفل التوجيه •",callback_data="/lockForwards:"..msg.sender_user_id_},{text="• فتح التوجيه •",callback_data="/unlockForwards:"..msg.sender_user_id_}},{{text="• قفل التكرار •",callback_data="/LockSpamList:"..msg.sender_user_id_},{text="• فتح التكرار •",callback_data="/unlockSpam:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..msg.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -12747,11 +12747,11 @@ if Manager(msg) then
 if text == "التعطيل" or text == "التفعيل" or text == "اوامر التفعيل" or text == "اوامر التعطيل" or text == "اوامر التفعيل والتعطيل" then
 local order = DevRio:get(Rinda..'Rio:order')
 local Text = [[
-⊀︰اهلا بك في قائمة اوامر التعطيل والتفعيل ↢ ⤈ 
+⊀︰اهلا بك في قائمة اوامر التعطيل والتفعيل ↢↯
 -----------------------------------------
 ⊀︰يمكنك التعطيل والتفعيل عن طريق الازرار بلاسفل
 -----------------------------------------
-⊀︰[Source Channel](https://t.me/Source_Rinda)
+⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• تعطيل الايدي بالصوره •",callback_data="/LockIdPhoto:"..msg.sender_user_id_},{text="• تفعيل الايدي بالصوره •",callback_data="/UnLockIdPhoto:"..msg.sender_user_id_}},{{text="• تعطيل الايدي •",callback_data="/LockId:"..msg.sender_user_id_},{text="• تفعيل الايدي •",callback_data="/UnLockId:"..msg.sender_user_id_}},{{text="• تعطيل الرابط •",callback_data="/LockGpLinks:"..msg.sender_user_id_},{text="• تفعيل الرابط •",callback_data="/UnLockGpLinks:"..msg.sender_user_id_}},{{text="• تعطيل الرابط انلاين •",callback_data="/LockGpLinksinline:"..msg.sender_user_id_},{text="• تفعيل الرابط انلاين •",callback_data="/UnLockGpLinksinline:"..msg.sender_user_id_}},{{text="• تعطيل الترحيب •",callback_data="/LockWelcome:"..msg.sender_user_id_},{text="• تفعيل الترحيب •",callback_data="/UnLockWelcome:"..msg.sender_user_id_}},{{text="• تعطيل الردود المطور •",callback_data="/LockAllRed:"..msg.sender_user_id_},{text="• تفعيل الردود المطور •",callback_data="/UnLockAllRed:"..msg.sender_user_id_}},{{text="• تعطيل ردود المدير •",callback_data="/LockGpRed:"..msg.sender_user_id_},{text="• تفعيل ردود المدير •",callback_data="/UnLockGpRed:"..msg.sender_user_id_}},{{text="• تعطيل نزلني •",callback_data="/LockDelMe:"..msg.sender_user_id_},{text="• تفعيل نزلني •",callback_data="/UnLockDelMe:"..msg.sender_user_id_}},{{text="• تعطيل اطردني •",callback_data="/LockKickMe:"..msg.sender_user_id_},{text="• تفعيل اطردني •",callback_data="/UnLockKickMe:"..msg.sender_user_id_}},{{text="• تعطيل الحظر •",callback_data="/LockKickBan:"..msg.sender_user_id_},{text="• تفعيل الحظر •",callback_data="/UnLockKickBan:"..msg.sender_user_id_}},{{text="• تعطيل الرفع •",callback_data="/LockProSet:"..msg.sender_user_id_},{text="• تفعيل الرفع •",callback_data="/UnLockProSet:"..msg.sender_user_id_}},{{text="• تعطيل الالعاب •",callback_data="/LockGames:"..msg.sender_user_id_},{text="• تفعيل الالعاب •",callback_data="/UnLockGames:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
@@ -12879,7 +12879,7 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'الملفات' and ChCheck(msg) and SecondSudo(msg) then
-Files = '\n⊀︰الملفات المفعله في البوت ↢ ⤈ \n-----------------------------------------\n'
+Files = '\n⊀︰الملفات المفعله في البوت ↢↯\n-----------------------------------------\n'
 i = 0
 for v in io.popen('ls Files'):lines() do
 if v:match(".lua$") then
@@ -13012,7 +13012,7 @@ else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تم حذف كليشة المطور", 1, "md")
 DevRio:del(Rinda.."DevText")
 end end
---     𝖲𝖮??𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
+--     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if DevRio:get(Rinda.."textch:user"..msg.chat_id_.."" .. msg.sender_user_id_) then 
 if text and text:match("^الغاء$") then 
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تم الغاء الامر", 1, "md") 
@@ -13042,7 +13042,7 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1
 else
 local chtext = DevRio:get(Rinda.."Rio:ChText")
 if chtext then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰كليشة الاشتراك ↢ ⤈ \n-----------------------------------------\n['..chtext..']', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰كليشة الاشتراك ↢↯\n-----------------------------------------\n['..chtext..']', 1, 'md')
 else
 if DevRio:get(Rinda.."Rio:ChId") then
 local Check = https.request('https://api.telegram.org/bot'..TokenBot..'/getChat?chat_id='..DevRio:get(Rinda.."Rio:ChId"))
@@ -13213,7 +13213,7 @@ end
 end 
 ------------------------------------------------
 -- This Source Was Developed By (Rio) @tsttt.--
---   This Is The Source Channel @Source_Rinda .   --
+--   This Is The ⊀ 𝖱𝗂𝗇𝖣𝖺 🐲 @Source_Rinda .   --
 --                - Rinda -                 --
 --        -- https://t.me/Source_Rinda --         --
 ------------------------------------------------   
