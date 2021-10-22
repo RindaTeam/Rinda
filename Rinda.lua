@@ -37,7 +37,7 @@ io.write('\27[1;36mتم حفظ ايدي المطور الاساسي\n27[0;39;49m
 DevRio:set(Server.."IdRinda",DevId) 
 end ---ifok
 else 
-print('\27[1;31m-----------------------------------------\nلم يتم حفظ ايدي المطور الاساسي ارسله مره اخرى\n-----------------------------------------') 
+print('\27[1;31m-----------------------------------------\nلم يتم حفظ ايدي المطور الاساسي ارسله غيࢪهه🦋\n-----------------------------------------') 
 end
 os.execute('lua Rinda.lua') 
 end
@@ -54,7 +54,7 @@ io.write('\27[1;36mتم حفظ توكن البوت بنجاح\n27[0;39;49m')
 DevRio:set(Server.."TokenRinda",TokenBot) 
 end  
 else 
-print('\27[1;31m-----------------------------------------\nلم يتم حفظ توكن البوت ارسله مره اخرى\n-----------------------------------------') 
+print('\27[1;31m-----------------------------------------\nلم يتم حفظ توكن البوت ارسله غيࢪهه🦋\n-----------------------------------------') 
 end  
 os.execute('lua Rinda.lua') 
 end
@@ -625,8 +625,8 @@ vardump(data)
 end ,nil) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
-local RioRank = function(msg) if SudoId(msg.sender_user_id_) then RindaTeam  = "المطور" elseif RioSudo(msg) then RindaTeam = "المطور" elseif SecondSudo(msg) then RindaTeam = "المطور" elseif SudoBot(msg) then RindaTeam = "المطور" elseif Manager(msg) then RindaTeam = "المدير" elseif Admin(msg) then RindaTeam = "الادمن" else RindaTeam = "العضو" end return RindaTeam end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1558668590) then RindaTeam = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(1897626429) then RindaTeam = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(Rinda) then RindaTeam = 'البوت' elseif SudoId(user_id) then RindaTeam = 'المطور الاساسي' elseif DevRio:sismember(Rinda..'Rio:RioSudo:', user_id) then RindaTeam = 'المطور الاساسي' elseif DevRio:sismember(Rinda..'Rio:SecondSudo:', user_id) then RindaTeam = 'المطور الاساسي²' elseif DevRio:sismember(Rinda..'Rio:SudoBot:', user_id) then RindaTeam = DevRio:get(Rinda.."Rio:SudoBot:Rd"..chat_id) or 'المطور' elseif DevRio:sismember(Rinda..'Rio:Owner:'..chat_id, user_id) then RindaTeam = DevRio:get(Rinda.."Rio:Owner:Rd"..chat_id) or 'المالك' elseif DevRio:sismember(Rinda..'Rio:RioConstructor:'..chat_id, user_id) then RindaTeam = 'المالك' elseif DevRio:sismember(Rinda..'Rio:BasicConstructor:'..chat_id, user_id) then RindaTeam = DevRio:get(Rinda.."Rio:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevRio:sismember(Rinda..'Rio:Constructor:'..chat_id, user_id) then RindaTeam = DevRio:get(Rinda.."Rio:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevRio:sismember(Rinda..'Rio:Managers:'..chat_id, user_id) then RindaTeam = DevRio:get(Rinda.."Rio:Managers:Rd"..chat_id) or 'المدير' elseif DevRio:sismember(Rinda..'Rio:Admins:'..chat_id, user_id) then RindaTeam = DevRio:get(Rinda.."Rio:Admins:Rd"..chat_id) or 'الادمن' elseif DevRio:sismember(Rinda..'Rio:VipMem:'..chat_id, user_id) then  RindaTeam = DevRio:get(Rinda.."Rio:VipMem:Rd"..chat_id) or 'المميز' elseif DevRio:sismember(Rinda..'Rio:Cleaner:'..chat_id, user_id) then  RindaTeam = DevRio:get(Rinda.."Rio:Cleaner:Rd"..chat_id) or 'المنظف' else RindaTeam = DevRio:get(Rinda.."Rio:mem:Rd"..chat_id) or 'العضو' end return RindaTeam end
+local RioRank = function(msg) if SudoId(msg.sender_user_id_) then 𝖱𝗂𝗇𝖣𝖺 🐍  = "المطور" elseif RioSudo(msg) then 𝖱𝗂𝗇𝖣𝖺 🐍 = "المطور" elseif SecondSudo(msg) then 𝖱𝗂𝗇𝖣𝖺 🐍 = "المطور" elseif SudoBot(msg) then 𝖱𝗂𝗇𝖣𝖺 🐍 = "المطور" elseif Manager(msg) then 𝖱𝗂𝗇𝖣𝖺 🐍 = "المدير" elseif Admin(msg) then 𝖱𝗂𝗇𝖣𝖺 🐍 = "الادمن" else 𝖱𝗂𝗇𝖣𝖺 🐍 = "العضو" end return 𝖱𝗂𝗇𝖣𝖺 🐍 end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1558668590) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(1897626429) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(Rinda) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'البوت' elseif SudoId(user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'المطور الاساسي' elseif DevRio:sismember(Rinda..'Rio:RioSudo:', user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'المطور الاساسي' elseif DevRio:sismember(Rinda..'Rio:SecondSudo:', user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'المطور الاساسي²' elseif DevRio:sismember(Rinda..'Rio:SudoBot:', user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:SudoBot:Rd"..chat_id) or 'المطور' elseif DevRio:sismember(Rinda..'Rio:Owner:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:Owner:Rd"..chat_id) or 'المالك' elseif DevRio:sismember(Rinda..'Rio:RioConstructor:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = 'المالك' elseif DevRio:sismember(Rinda..'Rio:BasicConstructor:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevRio:sismember(Rinda..'Rio:Constructor:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevRio:sismember(Rinda..'Rio:Managers:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:Managers:Rd"..chat_id) or 'المدير' elseif DevRio:sismember(Rinda..'Rio:Admins:'..chat_id, user_id) then 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:Admins:Rd"..chat_id) or 'الادمن' elseif DevRio:sismember(Rinda..'Rio:VipMem:'..chat_id, user_id) then  𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:VipMem:Rd"..chat_id) or 'المميز' elseif DevRio:sismember(Rinda..'Rio:Cleaner:'..chat_id, user_id) then  𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:Cleaner:Rd"..chat_id) or 'المنظف' else 𝖱𝗂𝗇𝖣𝖺 🐍 = DevRio:get(Rinda.."Rio:mem:Rd"..chat_id) or 'العضو' end return 𝖱𝗂𝗇𝖣𝖺 🐍 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -1092,9 +1092,9 @@ end
 if DataText and DataText:match('/Song:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/Song:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(4,2824); 
-local Text ='*⊀︰تم اختيار المقطع الصوتي لك*'
+local Text ='*⊀︰ختاࢪيت الاغنيه اسمع وࢪيح بالك🐉*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/Song:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/Song:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. data.chat_id_ .. '&voice=https://t.me/AudiosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1102,9 +1102,9 @@ end
 if DataText and DataText:match('/mp3:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/mp3:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1167); 
-local Text ='*⊀︰تم اختيار المقطع الصوتي لك*'
+local Text ='*⊀︰ختاࢪيت الاغنيه اسمع وࢪيح بالك🐉*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/mp3:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/mp3:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendAudio?chat_id=' .. data.chat_id_ .. '&audio=https://t.me/DavidMp3/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1112,9 +1112,9 @@ end
 if DataText and DataText:match('/memz:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/memz:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1201); 
-local Text ='*⊀︰تم اختيار مقطع الميمز لك*'
+local Text ='*⊀︰ختاࢪيت مقطع الميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/memz:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/memz:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. data.chat_id_ .. '&voice=https://t.me/MemzDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1122,27 +1122,27 @@ end
 if DataText and DataText:match('/gif:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/gif:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1075); 
-local Text ='*⊀︰تم اختيار المتحركه لك*'
+local Text ='*⊀︰ختاࢪيت المتحركه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/gif:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/gif:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendanimation?chat_id=' .. data.chat_id_ .. '&animation=https://t.me/GifDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if DataText and DataText:match('/photo:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/photo:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(4,1171); 
-local Text ='*⊀︰تم اختيار الصوره لك*'
+local Text ='*⊀︰ختاࢪيت الصوره لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/photo:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/photo:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. data.chat_id_ .. '&photo=https://t.me/PhotosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if DataText and DataText:match('/anime:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/anime:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(3,1002); 
-local Text ='*⊀︰تم اختيار صورة الانمي لك*'
+local Text ='*⊀︰ختاࢪيت صورة الانمي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/anime:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/anime:"..data.sender_user_id_}},{{text="• TeAm Rinda • •",url="t.me/Source_Rinda"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. data.chat_id_ .. '&photo=https://t.me/AnimeDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -2170,7 +2170,7 @@ end
 if DataText and DataText:match('/UpdateSource:'..tonumber(data.sender_user_id_)..'(.*)') then
 local Rio = DataText:match('/UpdateSource:'..tonumber(data.sender_user_id_)..'(.*)')
 os.execute('rm -rf Rinda.lua') 
-os.execute('wget https://raw.githubusercontent.com/RindaTeam/Rinda/master/Rinda.lua') 
+os.execute('wget https://raw.githubusercontent.com/𝖱𝗂𝗇𝖣𝖺 🐍/Rinda/master/Rinda.lua') 
 dofile('Rinda.lua') 
 io.popen("rm -rf ../.telegram-cli/*")
 print("\27[31;47m\n          ( تم تحديث ريندا )          \n\27[0;34;49m\n") 
@@ -3122,19 +3122,19 @@ return false
 end 
 if text == "مدير" then
 if not Constructor(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو • مميز  • ادمن )\n⊀︰ارسال نوع الصلاحيه مره اخرى", 1, 'html')
+Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو • مميز  • ادمن )\n⊀︰ارسال نوع الصلاحيه غيࢪهه🦋", 1, 'html')
 return false
 end
 end
 if text == "ادمن" then
 if not Manager(msg) then 
-Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو • مميز )\n⊀︰ارسال نوع الصلاحيه مره اخرى", 1, 'html')
+Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو • مميز )\n⊀︰ارسال نوع الصلاحيه غيࢪهه🦋", 1, 'html')
 return false
 end
 end
 if text == "مميز" then
 if not Admin(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو )\n⊀︰ارسال نوع الصلاحيه مره اخرى", 1, 'html')
+Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تستطيع اضافة صلاحية ( عضو )\n⊀︰ارسال نوع الصلاحيه غيࢪهه🦋", 1, 'html')
 return false
 end
 end
@@ -3489,13 +3489,13 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, Start_Source, 1, 'md')
 return false
 end
 if text == 'تفعيل التواصل' and ChCheck(msg) or text == '↢ تفعيل التواصل ⊀' and ChCheck(msg) then   
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل التواصل بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل التواصل بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Texting:Pv') 
 end
 if text == 'تعطيل التواصل' and ChCheck(msg) or text == '↢ تعطيل التواصل ⊀' and ChCheck(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل التواصل بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل التواصل بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Texting:Pv',true) 
 end
 if Sudo(msg) then
@@ -3526,8 +3526,8 @@ if text == "↢ بوت الزخرفه ⊀" and ChCheck(msg) or text == "بوت �
 if text == "ايديي" and ChCheck(msg) or text == "↢ ايديي ⊀" and ChCheck(msg) then Dev_Rio(msg.chat_id_, msg.id_, 1,'⊀︰ايديك ↢ ❨ `'..msg.sender_user_id_..'` ❩', 1, 'md') end
 -- 𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺 --
 if text == 'نبذا' and ChCheck(msg) or text == '↢ نبذا ⊀' then
-local RindaTeam = {'- Nothing stops him who wants you .','make them wish they had you !.','Maybe a magical girl','٫ 𝖡𝖾 𝗌𝗂𝗆𝗉𝗅𝖾 𝖺𝗇𝖽 𝖽𝗂𝖿𝖿𝖾𝗋𝖾𝗇𝗍','. 𝖬𝖺𝗄𝖾 𝖽𝗋𝖾𝖺𝗆𝗌 𝖿𝗋𝗈𝗆 𝗒𝗈𝗎𝗋 𝗋𝖾𝖿𝗋𝖺𝖼𝗍𝗂𝗈𝗇𝗌 . .',':Life is lying .','𝖨 𝗐𝗂𝗅𝗅 𝖺𝗅𝗐𝖺𝗒𝗌 𝗅𝗈𝗏𝖾 𝗒𝗈𝗎 𝗇𝖾𝗏𝖾𝗋 𝖿𝗈𝗋𝗀𝖾𝗍'}  
-Dev_Rio(msg.chat_id_, msg.id_, 1, ''..RindaTeam[math.random(#RindaTeam)]..'' , 1, 'md')  
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {'- Nothing stops him who wants you .','make them wish they had you !.','Maybe a magical girl','٫ 𝖡𝖾 𝗌𝗂𝗆𝗉𝗅𝖾 𝖺𝗇𝖽 𝖽𝗂𝖿𝖿𝖾𝗋𝖾𝗇𝗍','. 𝖬𝖺𝗄𝖾 𝖽𝗋𝖾𝖺𝗆𝗌 𝖿𝗋𝗈𝗆 𝗒𝗈𝗎𝗋 𝗋𝖾𝖿𝗋𝖺𝖼𝗍𝗂𝗈𝗇𝗌 . .',':Life is lying .','𝖨 𝗐𝗂𝗅𝗅 𝖺𝗅𝗐𝖺𝗒𝗌 𝗅𝗈𝗏𝖾 𝗒𝗈𝗎 𝗇𝖾𝗏𝖾𝗋 𝖿𝗈𝗋𝗀𝖾𝗍'}  
+Dev_Rio(msg.chat_id_, msg.id_, 1, ''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)]..'' , 1, 'md')  
 return false
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -3959,8 +3959,8 @@ end
 end
 if text and not DevRio:get(Rinda..'Rio:Add:GpRedod'..msg.sender_user_id_..msg.chat_id_) then
 if DevRio:sismember(Rinda..'Rio:Manager:GpRedod'..msg.chat_id_,text) then
-local RindaTeam =  DevRio:smembers(Rinda..'Rio:Text:GpTexts'..text..msg.chat_id_)
-Dev_Rio(msg.chat_id_, msg.id_, 1, '['..RindaTeam[math.random(#RindaTeam)]..']' , 1, 'md')  
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:smembers(Rinda..'Rio:Text:GpTexts'..text..msg.chat_id_)
+Dev_Rio(msg.chat_id_, msg.id_, 1, '['..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)]..']' , 1, 'md')  
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -3994,8 +3994,8 @@ end
 end
 if text and not DevRio:get(Rinda..'Rio:Add:Kt'..msg.sender_user_id_..msg.chat_id_) then
 if DevRio:sismember(Rinda..'Rio:Sudo:Kt'..msg.chat_id_,text) then
-local RindaTeam =  DevRio:smembers(Rinda..'Rio:Text:KtTexts'..text..msg.chat_id_)
-Dev_Rio(msg.chat_id_, msg.id_, 1, '['..RindaTeam[math.random(#RindaTeam)]..']' , 1, 'md')  
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:smembers(Rinda..'Rio:Text:KtTexts'..text..msg.chat_id_)
+Dev_Rio(msg.chat_id_, msg.id_, 1, '['..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)]..']' , 1, 'md')  
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -4072,7 +4072,7 @@ if DevRio:get(Rinda..'Rio:Stecker:GpRed'..msg.content_.text_..msg.chat_id_) then
 sendSticker(msg.chat_id_, msg.id_, 0, 1,nil, DevRio:get(Rinda..'Rio:Stecker:GpRed'..msg.content_.text_..msg.chat_id_))
 end
 if DevRio:get(Rinda..'Rio:Text:GpRed'..msg.content_.text_..msg.chat_id_) then
-function RindaTeam(extra,result,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,result,success)
 if result.username_ then username = '[@'..result.username_..']' else username = 'لا يوجد' end
 local edit_msg = DevRio:get(Rinda..'Rio:EditMsg'..msg.chat_id_..msg.sender_user_id_) or 0
 local user_msgs = DevRio:get(Rinda..'Rio:UsersMsgs'..msg.chat_id_..':'..msg.sender_user_id_)
@@ -4085,7 +4085,7 @@ local Text = Text:gsub('#msgs',(user_msgs or 'لا يوجد'))
 local Text = Text:gsub('#stast',(IdRank(msg.sender_user_id_, msg.chat_id_) or 'لا يوجد'))
 send(msg.chat_id_,msg.id_,Text)
 end
-getUser(msg.sender_user_id_, RindaTeam)
+getUser(msg.sender_user_id_, 𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -4167,7 +4167,7 @@ if DevRio:get(Rinda.."Rio:Stecker:AllRed"..msg.content_.text_) then
 sendSticker(msg.chat_id_, msg.id_, 0, 1,nil, DevRio:get(Rinda.."Rio:Stecker:AllRed"..msg.content_.text_))
 end
 if DevRio:get(Rinda.."Rio:Text:AllRed"..msg.content_.text_) then
-function RindaTeam(extra,result,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,result,success)
 if result.username_ then username = '[@'..result.username_..']' else username = 'لا يوجد' end
 local edit_msg = DevRio:get(Rinda..'Rio:EditMsg'..msg.chat_id_..msg.sender_user_id_) or 0
 local user_msgs = DevRio:get(Rinda..'Rio:UsersMsgs'..msg.chat_id_..':'..msg.sender_user_id_)
@@ -4180,7 +4180,7 @@ local Text = Text:gsub('#msgs',(user_msgs or 'لا يوجد'))
 local Text = Text:gsub('#stast',(IdRank(msg.sender_user_id_, msg.chat_id_) or 'لا يوجد'))
 send(msg.chat_id_,msg.id_,Text)
 end
-getUser(msg.sender_user_id_, RindaTeam)
+getUser(msg.sender_user_id_, 𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end 
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -4825,33 +4825,33 @@ end
 local msg = data.message_
 text = msg.content_.text_
 if text and Constructor(msg) then 
-if DevRio:get('RindaTeam:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_) then 
+if DevRio:get('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_) then 
 if text and text:match("^الغاء$") then 
-DevRio:del('RindaTeam:'..Rinda..'id:user'..msg.chat_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'id:user'..msg.chat_id_)  
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰تم الغاء الامر', 1, 'md')
-DevRio:del('RindaTeam:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
 return false  end 
-DevRio:del('RindaTeam:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
 local numadded = string.match(text, "(%d+)") 
-local iduserr = DevRio:get('RindaTeam:'..Rinda..'id:user'..msg.chat_id_)  
+local iduserr = DevRio:get('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'id:user'..msg.chat_id_)  
 DevRio:incrby(Rinda..'Rio:UsersMsgs'..msg.chat_id_..':'..iduserr,numadded)
 Dev_Rio(msg.chat_id_, msg.id_,  1, "⊀︰تم اضافة "..numadded..' رساله', 1, 'md')
-DevRio:del('RindaTeam:'..Rinda..'id:user'..msg.chat_id_) 
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'id:user'..msg.chat_id_) 
 end
 end
 if text and Constructor(msg) then 
-if DevRio:get('RindaTeam:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_) then 
+if DevRio:get('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_) then 
 if text and text:match("^الغاء$") then 
-DevRio:del('RindaTeam:'..Rinda..'ids:user'..msg.chat_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'ids:user'..msg.chat_id_)  
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰تم الغاء الامر', 1, 'md')
-DevRio:del('RindaTeam:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
 return false  end 
-DevRio:del('RindaTeam:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_)  
 local numadded = string.match(text, "(%d+)") 
-local iduserr = DevRio:get('RindaTeam:'..Rinda..'ids:user'..msg.chat_id_)  
+local iduserr = DevRio:get('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'ids:user'..msg.chat_id_)  
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..iduserr,numadded)  
 Dev_Rio(msg.chat_id_, msg.id_,  1, "⊀︰تم اضافة "..numadded..' نقطه', 1, 'md')
-DevRio:del('RindaTeam:'..Rinda..'ids:user'..msg.chat_id_)  
+DevRio:del('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'ids:user'..msg.chat_id_)  
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -5017,7 +5017,7 @@ if DevRio:get(Rinda.."SET:GAME"..msg.chat_id_) then
 if text and text:match("^(%d+)$") then
 local NUM = text:match("^(%d+)$")
 if tonumber(NUM) > 6 then
-Dev_Rio( msg.chat_id_, msg.id_, 1,"⊀︰يوجد فقط ( 6 ) اختيارات\n⊀︰ارسل اختيارك مره اخرى", 1, "md")    
+Dev_Rio( msg.chat_id_, msg.id_, 1,"⊀︰يوجد فقط ( 6 ) اختيارات\n⊀︰ارسل اختيارك غيࢪهه🦋", 1, "md")    
 return false  end 
 local GETNUM = DevRio:get(Rinda.."GAMES"..msg.chat_id_)
 if tonumber(NUM) == tonumber(GETNUM) then
@@ -5026,7 +5026,7 @@ Dev_Rio( msg.chat_id_, msg.id_, 1,'⊀︰*المحيبس باليد رقم* ↢ 
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_,5)  
 elseif tonumber(NUM) ~= tonumber(GETNUM) then
 DevRio:del(Rinda.."SET:GAME"..msg.chat_id_)   
-Dev_Rio( msg.chat_id_, msg.id_, 1,'⊀︰*المحيبس باليد رقم* ↢ '..GETNUM..'\n⊀︰*للاسف لقد خسرت حاول مره اخرى للعثور على المحيبس*', 1, "md")
+Dev_Rio( msg.chat_id_, msg.id_, 1,'⊀︰*المحيبس باليد رقم* ↢ '..GETNUM..'\n⊀︰*للاسف لقد خسرت حاول غيࢪهه🦋 للعثور على المحيبس*', 1, "md")
 end
 end
 end
@@ -5102,16 +5102,16 @@ end
 if ChatType == 'sp' or ChatType == 'gp' or ChatType == 'pv' then
 if text == 'بوت' or text == 'بوتت' then 
 NameBot = (DevRio:get(Rinda..'Rio:NameBot') or 'ريندا')
-local RindaTeam = {' كول حبيبي ؟ اني '..NameBot..' ',' وياك القميل '..NameBot..' ',' اسمي القميل '..NameBot..' '}
-DevRio2 = math.random(#RindaTeam) 
-Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam[DevRio2] , 1, 'html') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {' كول حبيبي ؟ اني '..NameBot..' ',' وياك القميل '..NameBot..' ',' اسمي القميل '..NameBot..' '}
+DevRio2 = math.random(#𝖱𝗂𝗇𝖣𝖺 🐍) 
+Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍[DevRio2] , 1, 'html') 
 return false
 end
 if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه' then
 NameBot = (DevRio:get(Rinda..'Rio:NameBot') or 'ريندا') 
-local RindaTeam = {"اسمي القميل "..NameBot.." "} 
-DevRio2 = math.random(#RindaTeam) 
-Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam[DevRio2] , 1, 'html') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {"اسمي القميل "..NameBot.." "} 
+DevRio2 = math.random(#𝖱𝗂𝗇𝖣𝖺 🐍) 
+Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍[DevRio2] , 1, 'html') 
 return false
 end
 if text and text == (DevRio:get(Rinda..'Rio:NameBot') or 'ريندا') then 
@@ -5252,14 +5252,14 @@ name = string.gsub(name,'⏰','⏰')
 name = string.gsub(name,'📺','📺')
 name = string.gsub(name,'🎚','🎚')
 name = string.gsub(name,'☎️','☎️')
-RindaTeam = '⊀︰اول واحد يدز هذا السمايل يربح ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اول واحد يدز هذا السمايل يربح ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ سمايلات للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ سمايلات للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5310,14 +5310,14 @@ name = string.gsub(name,'حاسوب','س ا ح و ب')
 name = string.gsub(name,'انترنيت','ا ت ن ر ن ي ت')
 name = string.gsub(name,'ساحه','ح ا ه س')
 name = string.gsub(name,'جسر','ر ج س')
-RindaTeam = '⊀︰اول واحد يرتبها يربح ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اول واحد يرتبها يربح ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ ترتيب للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ ترتيب للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5376,14 +5376,14 @@ name = string.gsub(name,'الثلج','انا ابن الماء فان تركون
 name = string.gsub(name,'الاسفنج','كلي ثقوب ومع ذالك احفض الماء فمن اكون ؟')
 name = string.gsub(name,'الصوت','اسير بلا رجلين ولا ادخل الا بالاذنين فمن انا ؟')
 name = string.gsub(name,'بلم','حامل ومحمول نصف ناشف ونصف مبلول فمن اكون ؟ ')
-RindaTeam = '⊀︰اول واحد يحلها يربح ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اول واحد يحلها يربح ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ حزوره للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ حزوره للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5419,14 +5419,14 @@ name = string.gsub(name,'زرافه','🦒')
 name = string.gsub(name,'قنفذ','🦔')
 name = string.gsub(name,'تفاحه','🍎')
 name = string.gsub(name,'باذنجان','🍆')
-RindaTeam = '⊀︰ما معنى هذا السمايل :؟ ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰ما معنى هذا السمايل :؟ ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum2'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ المعاني للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ المعاني للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5462,14 +5462,14 @@ name = string.gsub(name,'موعطشان','عطشان')
 name = string.gsub(name,'خوش ولد','موخوش ولد')
 name = string.gsub(name,'اني','مطي')
 name = string.gsub(name,'هادئ','عصبي')
-RindaTeam = '⊀︰ما هو عكس كلمة ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰ما هو عكس كلمة ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum3'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ العكس للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ العكس للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5508,14 +5508,14 @@ name = string.gsub(name,'⌛️','⏳⏳⏳⏳⏳⌛️⏳⏳')
 name = string.gsub(name,'📅','📆📆📆📆📆📅📆📆')
 name = string.gsub(name,'👩‍⚖️','👨‍⚖️👨‍⚖️👨‍⚖️👨‍⚖️👨‍⚖️👩‍⚖️👨‍⚖️👨‍⚖️')
 name = string.gsub(name,'👨‍🎨','👩‍🎨👩‍🎨👨‍🎨👩‍🎨👩‍🎨👩‍🎨👩‍🎨👩‍🎨')
-RindaTeam = '⊀︰اول واحد يطلع المختلف يربح\n{'..name..'} '
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اول واحد يطلع المختلف يربح\n{'..name..'} '
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum4'..msg.chat_id_) and not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ المختلف للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ المختلف للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
@@ -5548,16 +5548,16 @@ name = string.gsub(name,'شهر','امشي ___ ولا تعبر نهر')
 name = string.gsub(name,'شكه','يامن تعب يامن ___ يا من على الحاضر لكة')
 name = string.gsub(name,'القرد',' ___ بعين امه غزال')
 name = string.gsub(name,'يكحله','اجه ___ عماها')
-RindaTeam = '⊀︰اكمل المثال التالي ↢ ['..name..']'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اكمل المثال التالي ↢ ['..name..']'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum5'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 DevRio:del(Rinda..'Rio:GameNum5'..msg.chat_id_)
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ امثله للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ امثله للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
 end  
@@ -5580,16 +5580,16 @@ name = string.gsub(name,'15','25 - 10 = ?')
 name = string.gsub(name,'39','44 - 5 = ?')
 name = string.gsub(name,'5','12 + 1 - 8 = ?')
 name = string.gsub(name,'16','16 + 16 - 16 = ?')
-RindaTeam = '⊀︰اكمل المعادله التاليه ↢ ⤈\n{'..name..'} '
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اكمل المعادله التاليه ↢ ⤈\n{'..name..'} '
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum6'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 DevRio:del(Rinda..'Rio:GameNum6'..msg.chat_id_)
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ رياضيات للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ رياضيات للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
 end  
@@ -5611,16 +5611,16 @@ name = string.gsub(name,'تمساح','crocodile')
 name = string.gsub(name,'شاطئ','Beach')
 name = string.gsub(name,'غبي','Stupid')
 name = string.gsub(name,'صداقه','Friendchip')
-RindaTeam = '⊀︰ما معنى كلمة ↢ '..name
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰ما معنى كلمة ↢ '..name
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum7'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 DevRio:del(Rinda..'Rio:GameNum7'..msg.chat_id_)
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ انكليزيه للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ انكليزيه للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
 end  
@@ -5661,16 +5661,16 @@ name = string.gsub(name,'لندن','⊀︰ماهي عاصمه انجلترا ؟\
 name = string.gsub(name,'الانسان','⊀︰ماهو الشئ الذي برأسه سبع فتحات ؟\n1- الهاتف\n2- التلفاز\n3- الانسان')
 name = string.gsub(name,'طوكيو','⊀︰ماهي عاصمه اليابان ؟\n1- بانكول\n2- نيو دلهي\n3- طوكيو')
 name = string.gsub(name,'خديجه','⊀︰من هي زوجه الرسول الاكبر منه سنآ ؟\n1- حفضه\n2- زينب\n3- خديجه')
-RindaTeam = name..'\n⊀︰ارسل الجواب الصحيح فقط'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = name..'\n⊀︰ارسل الجواب الصحيح فقط'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 return false
 end end
 if text == DevRio:get(Rinda..'Rio:GameNum8'..msg.chat_id_) then
 if not DevRio:get(Rinda..'Rio:Games:Ids'..msg.chat_id_) then 
 DevRio:incrby(Rinda..'Rio:GamesNumber'..msg.chat_id_..msg.sender_user_id_, 1)  
 DevRio:del(Rinda..'Rio:GameNum8'..msg.chat_id_)
-RindaTeam = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ الاسئله للعب مره اخرى'
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md')
+𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰مبروك لقد ربحت في اللعبه \n⊀︰ارسل ↢ الاسئله للعب غيࢪهه🦋'
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md')
 end
 DevRio:set(Rinda..'Rio:Games:Ids'..msg.chat_id_,true)
 end  
@@ -5692,14 +5692,14 @@ DevRio:incrby(Rinda..'Set:Num'..msg.chat_id_..msg.sender_user_id_,1)
 if tonumber(DevRio:get(Rinda..'Set:Num'..msg.chat_id_..msg.sender_user_id_)) >= 3 then
 DevRio:del(Rinda..'Set:Num'..msg.chat_id_..msg.sender_user_id_)
 DevRio:del(Rinda.."GAME:TKMEN"..msg.chat_id_.."" .. msg.sender_user_id_)   
-Dev_Rio(msg.chat_id_, msg.id_, 1,'⊀︰*التخمين الصحيح هو* ↢ '..GETNUM..'\n⊀︰*للاسف لقد خسرت حاول مره اخرى لتخمين الرقم الصحيح*', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1,'⊀︰*التخمين الصحيح هو* ↢ '..GETNUM..'\n⊀︰*للاسف لقد خسرت حاول غيࢪهه🦋 لتخمين الرقم الصحيح*', 1, 'md')
 else
 if tonumber(DevRio:get(Rinda..'Set:Num'..msg.chat_id_..msg.sender_user_id_)) == 1 then
 SetNum = 'محاولتان فقط'
 elseif tonumber(DevRio:get(Rinda..'Set:Num'..msg.chat_id_..msg.sender_user_id_)) == 2 then
 SetNum = 'محاوله واحده فقط'
 end
-Dev_Rio(msg.chat_id_, msg.id_, 1,'⊀︰لقد خمنت الرقم الخطا وتبقى لديك '..SetNum..' ارسل رقم تخمنه مره اخرى للفوز', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1,'⊀︰لقد خمنت الرقم الخطا وتبقى لديك '..SetNum..' ارسل رقم تخمنه غيࢪهه🦋 للفوز', 1, 'md')
 end
 end
 end
@@ -5767,13 +5767,13 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'كت' and ChCheck(msg) or text == 'تويت' and ChCheck(msg) or text == '↢ كت ⊀' and ChCheck(msg) then
 if not DevRio:get(Rinda..'Rio:Lock:Games'..msg.chat_id_) then
-local RindaTeam = {
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {
 'آخر مرة زرت مدينة الملاهي؟','آخر مرة أكلت أكلتك المفضّلة؟','الوضع الحالي؟\n‏1. سهران\n‏2. ضايج\n‏3. أتأمل','آخر شيء ضاع منك؟','كلمة أخيرة لشاغل البال؟','طريقتك المعتادة في التخلّص من الطاقة السلبية؟','شهر من أشهر العام له ذكرى جميلة معك؟','كلمة غريبة من لهجتك ومعناها؟🤓','‏- شيء سمعته عالق في ذهنك هاليومين؟','متى تكره الشخص الذي أمامك حتى لو كنت مِن أشد معجبينه؟','‏- أبرز صفة حسنة في صديقك المقرب؟','هل تشعر أن هنالك مَن يُحبك؟','اذا اكتشفت أن أعز أصدقائك يضمر لك السوء، موقفك الصريح؟','أجمل شيء حصل معك خلال هاليوم؟','صِف شعورك وأنت تُحب شخص يُحب غيرك؟👀💔','كلمة لشخص غالي اشتقت إليه؟💕','آخر خبر سعيد، متى وصلك؟','أنا آسف على ....؟','أوصف نفسك بكلمة؟','صريح، مشتاق؟','‏- صريح، هل سبق وخذلت أحدهم ولو عن غير قصد؟','‏- ماذا ستختار من الكلمات لتعبر لنا عن حياتك التي عشتها الى الآن؟💭','‏- فنان/ة تود لو يدعوكَ على مائدة عشاء؟😁❤','‏- تخيّل شيء قد يحدث في المستقبل؟','‏- للشباب | آخر مرة وصلك غزل من فتاة؟🌚','شخص أو صاحب عوضك ونساك مُر الحياة ما اسمه ؟','| اذا شفت حد واعجبك وعندك الجرأه انك تروح وتتعرف عليه ، مقدمة الحديث شو راح تكون ؟.','كم مره تسبح باليوم','نسبة النعاس عندك حاليًا؟','لو فقط مسموح شخص واحد تتابعه فالسناب مين بيكون ؟','يهمك ملابسك تكون ماركة ؟','وش الشيء الي تطلع حرتك فيه و زعلت ؟','عندك أخوان او خوات من الرضاعة؟','عندك معجبين ولا محد درا عنك؟','أصعب صفة قد تتواجد في الرجل .؟','كم المده الي تخليك توقع بحب الشخص؟.','تحس انك مستعد للقاء الله ولا باقي.؟','متصالح مع نفسك؟.','يسكر على أصبعك الباب ولا تعض لسانك  بالغلط؟!','عندك غمازات؟.','‏ألوانك المفضّلة؟','ردة فعلك لما تنظلم من شخص ؟','وش الحب بنظرك؟','أكثر شيء تقدره في الصداقات؟','‏لوخيروك ⁞ الاكل لو النت ؟!','عاجبك وجودك في التلي ولا تتمنى تحذفة.؟','افضل هديه ممكن تناسبك؟','شعورك الحالي في جملة؟','أنا حزين جداً أجعلني أبتسم.؟','بماذا يتعافى المرء؟','تاك لشخص نفسيه؟','شاركنا بيت شعري حزين على ذوقك.؟','اغنية عندك بيها ذكريات؟','اشياء تفتخر انك م سويتها ؟','الصراحة وقاحة ولا صدق تعامل.؟','ايهم اصدق نظرة العين او نبرة الصوت ؟','‏قلّة المال لدى الرجل في هذا الزمن يعتبرها العديد كانها عيب، مع أم ضد؟','إيهما تُفضل حُب ناجح أم صداقة دائمة.؟','على نياتكُم تُرزقون تاك لشخص ينطبق علية هذا الشيء.؟','اكثر كلمة ترفع ضغطك ؟','من أصحاب الماضي والحنين ولا الصفحات المطوية.؟','من أصحاب النسيان او التجاوز رغم الذكرى.؟','غزل بلهجتك ؟','مصروفك كم؟.','للحتيت ⁞ ماذا تفضّلين أن تكون مهنة شريك حياتك المستقبلي.؟','يومك ضاع على؟','ما الذي اسعدك اليوم .؟','كيف تتعامل مع الشخص المُتطفل ( الفضولي ) ؟','أصعب صفة قد تتواجد في المرأة.؟','مع أو ضد لو كان خيراً لبقئ.؟','نصيحة لكل شخص يذكر أحد بغيابة بالسوء.؟','كل شيء يهون الا ؟','هل أنت من النوع الذي يواجه المشاكل أو من النوع الذي يهرب ؟','كلمه لشخص خانك!؟.','تحب تحتفظ بالذكريات ؟','شاركنا أقوى بيت شِعر من تأليفك؟','‏اسرع شيء يحسّن من مزاجك؟','كلمتك التسليكيه ؟','كم ساعات نومك؟.','عندك فوبيا او خوف شديد من شيء معين ؟','موهبة تفوز بمدح الناس لك.؟','قدوتك من الأجيال السابقة؟','شخص تتمنئ له الموت؟.','عادةً تُحب النقاش الطويل أم تحب الاختصار؟','تاك لشخص نيته زباله🌚؟','صوتك حلو ؟ .','كلمتين تكررها دايم؟!','افضل روايه قريتيها؟.','متى حدث التغيير الكبير والملحوظ في شخصيتك؟','أكثر اكلهه تحبها؟.','‏كلما ازدادت ثقافة المرء ازداد بؤسه','تتفق.؟','اغبى كذبه صدقتها بطفولتك؟.','كم المده الي تخليك توقع بحب الشخص؟.','تسامح شخص وجع قلبك ؟.','ردة فعلك لما تنظلم من شخص ؟','شيء يعدل نفسيتك بثواني.؟','‏تتوقع الإنسان يحس بقرب موته؟','وقت حزنك تلجأ لمن يخفف عنك.؟','‏أكثر شيء شخصي ضاع منك؟','تزعلك الدنيا ويرضيك ؟','ما الذي يشغل بالك في الفترة الحالية؟','نهارك يصير أجمل بوجود ..؟','حسيت انك ظلمت شخص.؟','صفة يطلقها عليك من حولك بكثرة؟','‏يوم لا يمكنك نسيانه؟','أكثر اكلهه تحبها؟.','اخر كلمة قالها لك حبيبك؟.','من الشخص الاقرب لقلبك؟.','كم المده الي تخليك توقع بحب الشخص؟.','ماهي الهدية التي تتمنى أن تنتظرك يومًا أمام باب منزلك؟','‏اسم او تاك لشخص لا ترتاح في يومك إلا إذا حاجيته؟','صديق أمك ولا أبوك. ؟','لماذا الأشياء التي نريدها بشغف تأتي متأخرة؟','‏تقبل بالعودة لشخص كسر قلبك مرتين؟','افضل هديه ممكن تناسبك؟','كلمة غريبة ومعناها؟','اذا اشتقت تكابر ولا تبادر ؟.','بامكانك تنزع شعور من قلبك للابد ، ايش هو؟.','لو بتغير اسمك ايش بيكون الجديد ؟','‏شخصية لا تستطيع تقبلها؟','ما هي طريقتك في الحصول على الراحة النفسية؟','‏ايموجي يوصف مزاجك حاليًا بدقة؟','تاريخ ميلادك؟','كيف تحد الدولة من الفقر المُتزايد.؟','‏شي مستحيل يتغير فيك؟','لو اخذوك لمستشفى المخابيل كيف تثبت انت صاحي؟','إيموجي يعبّر عن مزاجك الحالي؟','وقت حزنك تلجأ لمن يخفف عنك.؟','اعترف باي حاجه ؟','شاركني آخر صورة جميلة من كاميرا هاتفك.؟','متصالح مع نفسك؟.','لو عندك امنيه وبتحقق وش هي؟.','هل انت شخص مادي.؟','أخر اتصال جاك من مين ؟','تاك لصديقك المُقرب؟.','تحب العلاقات العاطفيه ولا الصداقه؟.','العين الي تستصغرك........؟','تجامل الناس ولا اللي بقلبك على لسانك؟','وقت حزنك تلجأ لمن يخفف عنك.؟','اكثر المتابعين عندك باي برنامج؟','صفه تتمناها بشريك حياتك؟.','من اصدق في الحب الولد ولا البنت؟.','يرد عليك متأخر على رسالة مهمة وبكل برود، موقفك؟','كلمة لشخص بعيد؟','رحتي لعرس وأكتشفتي العريس حبيبك شنو ردة فعلك.؟','تسامح شخص وجع قلبك ؟.','احقر موقف صار لك؟.','ماذا لو كانت مشاعر البشر مرئية ؟','وين نلقى السعاده برايك؟','قد تخيلت شي في بالك وصار ؟','صفة يطلقها عليك الشخص المفضّل؟','اخر خيانه؟.','تحب تحتفظ بالذكريات ؟','لو بتغير اسمك ايش بيكون الجديد ؟','الاعتذار أخلاق ولا ضعف.؟','هل أنت من النوع الذي يواجه المشاكل أو من النوع الذي يهرب ؟','‏ تكره أحد من قلبك ؟','تاك لشخص وكوله اعترف لك؟','مع أو ضد لو كان خيراً لبقئ.؟','‏هل لديك شخص لا تخفي عنه شيئًا؟','اغنيه تأثر بيك؟','المطوعة والعاقلة من شلتك.؟','مواصفات امير/ة احلامك؟.','‏كلمة لصديقك البعيد؟','تتابع انمي؟ إذا نعم ما أفضل انمي شاهدته؟','قرارتك راضي عنها ام لا ؟','تسامح شخص سبب في بكائك.؟','لو حصل واشتريت جزيرة، ماذا ستختار اسمًا لها.؟','اغنيتك المفضلة؟.','شاركنا اقوئ نكتة عندك.؟','ماذا لو عاد مُشتاقاً.؟','مسلسل كرتوني له ذكريات جميلة عندك؟','أخر اتصال جاك من مين ؟','حيوانك المفضل؟','اول ولد لك شنو رح تسميه ؟','سبب الرحيل.؟','قولها بلهجتك « لا أملك المال ».؟','نهارك يصير أجمل بوجود ..؟','‏لو خيروك، الزواج بمن تُحب او تاخذ مليون دولار؟','تاك لشخص سوالفه حلوه ؟','تصرف لا يُمكن أن تتحمله.؟','ماهي الاطباع فيك التي تحاول اخفائها عن الناس؟.','شيء عندك اهم من الناس؟','قد تخيلت شي في بالك وصار ؟','تمحي العشرة الطيبة عشان موقف ماعجبك أو سوء فهم.؟','جربت شعور احد يحبك بس انت متكدر تحبه؟','بنفسك تبوس شخص بهاي الحظه؟','إذا كانت الصراحة ستبعد عنك من تحب هل تمتلك الشجاعة للمصارحة ام لا .؟','أكمل الدعاء بما شئت ‏اللهم أرزقني ..؟','الصق اخر شيء نسخته .؟','‏تفضل جولة في الغابة أم جولة بحرية؟','‏تاك لشخص لديك لا تخفي عنه شي؟','كلمة غريبة ومعناها؟','‏اوقات لا تحب ان يكلمك فيها احد؟','تملك وسواس من شيء معين ؟','اشمر مقطع من اغنيه متطلع منراسك؟','هل تتأثرين بالكلام الرومانسي من الشباب؟','ما اول شيء يلفت انتباهك في الرجل؟','ماذا تفعلين اذا تعرضتِ للتحرش من قبل شخص ما..؟','اذا كنت شخصاً غني هل توافق على الزواج من فتاة فقيرة..؟','ما هو أكثر شئ لا تستطيع تحمله..؟','ما هي نقاط الضعف في شخصيتك..؟','هل توافق أن زوجتك تدفع الحساب في إحدي المطاعم وأنت موجود؟','ماذا تفعل لو أكتشفت ان زوجتك على علاقة بصديقك؟','ما هي أكثر صفة تكرهها في زوجتك..؟','اذا كان لديك فرصة للخروج مع من سوف تخرج ربعك او زوجتك..؟','ماذا تفعل عندما تري دموع زوجتك..؟','إلى أي الرجال تُريدين أن يكون انتماؤك؟','كم مرة خُدعت في أشخاصٍ، وثقتِ فيهم ثقةً عمياء؟','هل ما زال أصدقاء الطفولة أصدقاءً لك حتى الآن؟','هل ترغبين في أن يكون خطيبك وسيمًا؟','كم مرةٍ فعلت شيئًا لا ترغبين في الإفصاح عنه؟','هل استطعت أن تُحققي آمالك العلمية والعاطفية؟','أكثر شئ ندمت على فعله..؟','هل تشعرين أنك فتاة محظوظة..؟','هل علاقة الحب التي كانت في صغرك، مازالت مستمرة؟','ما هو أكثر شئ يفرحك في هذه الحياة..؟','كم مرة أردت شراء ملابس لأنها جميلة ولكنها لا تناسبك..؟','كم عدد المرات التي قمت فيها بإستبدال شئ اشتريته ولم يعجبك بعد ذلك.؟','كم مرة قمت بكسر الرجيم من أجل تناول طعامك المفضل..؟','هل تعرضت للظلم يوماً ما وعلى يد من..؟','هل كذبت على والديك من قبل..؟','هل خرجتي مع شخص تعرفتي عليه من خلال التليكرام من قبل..؟','هل لو تقدم شخص لاختك من أجل خطبتها وقامت برفضه تقبلين به..؟','لمن تقولين لا أستطيع العيش بدونك..؟','كم عدد المرات التي تعرضتِ فيها إلى أزمة نفسية وأردتِ الصراخ بأعلى صوتك..؟','ماذا تقول للبحر؟','أصعب صفة قد تتواجد في رجل؟','ما أجمل الحياة بدون ...؟','لماذا لم تتم خطبتك حتى الآن..؟','نسبة رضاك عن الأشخاص من حولك هالفترة ؟','ما السيء في هذه الحياة ؟','الفلوس او الحب ؟','أجمل شيء حصل معك خلال هذا الاسبوع ؟','سؤال ينرفزك ؟','كم في حسابك البنكي ؟','شي عندك اهم من الناس ؟','اول ولد او بنت الك شنو تسمي ؟','تفضّل النقاش الطويل او تحب الاختصار ؟','عادي تتزوج او تتزوجين من خارج العشيره ؟','كم مره حبيت ؟','تبادل الكراهية بالكراهية؟ ولا تحرجه بالطيب ؟','قلبي على قلبك مهما صار لمنو تكولها ؟','اكثر المتابعين عندك باي برنامج ؟','نسبة النعاس عندك حاليًا ؟','نسبه الندم عندك للي وثقت بيهم ؟','اول شخص تعرفت عليه بالتليكرام بعده موجود ؟','اذا فديوم شخص ضلمك شنو موقفك ؟','افضل عمر للزواج برئيك ؟','انت من النوع الي دائما ينغدر من اقرب الناس اله ؟','ماهو حيوانك المفضل ؟','تاريخ ميلادك ؟','لونك المفضل ؟','انت من النوع العاطفي والي ميكدر يكتم البداخله ؟','اذا فديوم شخص خانك ويريد يرجعلك تقبل ؟','شي بالحياه مخليك عايش لحد الان ؟','تحب النوم لو الشغل ؟','افضل مكان رحت عليه ؟','اختصر الماضي بكلمه وحده ؟','هل سبق وكنت مصر على أمر ما ومن ثم اكتشفت أنك كنت على خطأ ؟','اكثر كلمة ترفع ضغطك ؟','مع او ضد سب البنت للدفاع عن نفسها ؟','يهمك ظن الناس بيك لو لا؟','عبّر عن مودك بصوره ؟','اغلب وقتك ضايع في ؟','يوم متكدر تنساه ؟','تحس انك محظوظ بالاشخاص الي حولك ؟','تستغل وقت فراغك بشنو ؟','مع او ضد مقولة محد يدوم ل احد ؟','لو اخذوك مستشفى المجانين كيف تثبت لهم انك صاحي ؟','مغني تلاحظ أن صوته يعجب الجميع إلا أنت ؟','اخر خيانه ؟','تصرف ماتتحمله ؟','هل يمكنك الكذب والاستمرار بارتكاب الأخطاء كمحاولة منك لعدم الكشف أنك مخطئ ؟','الصق اخر شي نسخته ؟','عمرك انتقمت من أحد ؟','هل وصلك رسالة غير متوقعة من شخص وأثرت فيك ؟','‏-لو امتلكت العصا السحرية ليوم واحد ماذا ستفعل ؟','جابو طاري شخص تكره عندك تشاركهم ولا تمنعهم ؟','أمنية كنت تتمناها وحققتها ؟','هل التعود على شخص والتحدث معه بشكل يومي يعتبر نوع من أنواع الحب ؟','نسبة جمال صوتك ؟','صفة يطلقها عليك الشخص المفضل ؟','شنو هدفك بالمستقبل القريب ؟','تحب القرائه ؟','كليه تتمنى تنقبل بيها ؟',
 'أطول مدة قضيتها بعيد عن أهلك ؟','لو يجي عيد ميلادك تتوقع يجيك هدية؟','يبان عليك الحزن من " صوتك - ملامحك','وين تشوف نفسك بعد سنتين؟','وش يقولون لك لما تغني ؟','عندك حس فكاهي ولا نفسية؟','كيف تتصرف مع الشخص الفضولي ؟','كيف هي أحوال قلبك؟','حاجة تشوف نفسك مبدع فيها ؟','متى حبيت؟','شيء كل م تذكرته تبتسم ...','العلاقه السريه دايماً تكون حلوه؟','صوت مغني م تحبه','لو يجي عيد ميلادك تتوقع يجيك هدية؟','اذا احد سألك عن شيء م تعرفه تقول م اعرف ولا تتفلسف ؟','مع او ضد : النوم افضل حل لـ مشاكل الحياة؟','مساحة فارغة (..............) اكتب اي شيء تبين','اغرب اسم مر عليك ؟','عمرك كلمت فويس احد غير جنسك؟','اذا غلطت وعرفت انك غلطان تحب تعترف ولا تجحد؟','لو عندك فلوس وش السيارة اللي بتشتريها؟','وش اغبى شيء سويته ؟','شيء من صغرك ماتغير فيك؟','وش نوع الأفلام اللي تحب تتابعه؟','وش نوع الأفلام اللي تحب تتابعه؟','تجامل احد على حساب مصلحتك ؟','تتقبل النصيحة من اي شخص؟','كلمه ماسكه معك الفترة هذي ؟','متى لازم تقول لا ؟','اكثر شيء تحس انه مات ف مجتمعنا؟','تؤمن ان في "حُب من أول نظرة" ولا لا ؟.','تؤمن ان في "حُب من أول نظرة" ولا لا ؟.','هل تعتقد أن هنالك من يراقبك بشغف؟','اشياء اذا سويتها لشخص تدل على انك تحبه كثير ؟','اشياء صعب تتقبلها بسرعه ؟','اقتباس لطيف؟','أكثر جملة أثرت بك في حياتك؟','عندك فوبيا من شيء ؟.',
 'اكثر لونين تحبهم مع بعض؟','أجمل بيت شعر سمعته ...','سبق وراودك شعور أنك لم تعد تعرف نفسك؟','تتوقع فيه احد حاقد عليك ويكرهك ؟','أجمل سنة ميلادية مرت عليك ؟','لو فزعت/ي لصديق/ه وقالك مالك دخل وش بتسوي/ين؟','وش تحس انك تحتاج الفترة هاذي ؟','يومك ضاع على؟','@منشن .. شخص تخاف منه اذا عصب ...','فيلم عالق في ذهنك لا تنساه مِن روعته؟','تختار أن تكون غبي أو قبيح؟','الفلوس او الحب ؟','أجمل بلد في قارة آسيا بنظرك؟','ما الذي يشغل بالك في الفترة الحالية؟','احقر الناس هو من ...','وين نلقى السعاده برايك؟','اشياء تفتخر انك م سويتها ؟','تزعلك الدنيا ويرضيك ؟','وش الحب بنظرك؟','افضل هديه ممكن تناسبك؟','كم في حسابك البنكي ؟','كلمة لشخص أسعدك رغم حزنك في يومٍ من الأيام ؟','عمرك انتقمت من أحد ؟!','ما السيء في هذه الحياة ؟','غنية عندك معاها ذكريات🎵🎻','/','أفضل صفة تحبه بنفسك؟','اكثر وقت تحب تنام فيه ...','أطول مدة نمت فيها كم ساعة؟','أصعب قرار ممكن تتخذه ؟','أفضل صفة تحبه بنفسك؟','اكثر وقت تحب تنام فيه ...','أنت محبوب بين الناس؟ ولاكريه؟','إحساسك في هاللحظة؟','اخر شيء اكلته ؟','تشوف الغيره انانيه او حب؟','اذكر موقف ماتنساه بعمرك؟','اكثر مشاكلك بسبب ؟','اول ماتصحى من النوم مين تكلمه؟','آخر مرة ضحكت من كل قلبك؟','لو الجنسية حسب ملامحك وش بتكون جنسيتك؟','اكثر شيء يرفع ضغطك','اذكر موقف ماتنساه بعمرك؟','لو قالوا لك  تناول صنف واحد فقط من الطعام لمدة شهر .',
 'كيف تشوف الجيل ذا؟','ردة فعلك لو مزح معك شخص م تعرفه ؟','احقر الناس هو من ...','تحب ابوك ولا امك','آخر فيلم مسلسل والتقييم🎥؟','أقبح القبحين في العلاقة: الغدر أو الإهمال🤷🏼؟','كلمة لأقرب شخص لقلبك🤍؟','حط@منشن لشخص وقوله "حركتك مالها داعي"😼!','اذا جاك خبر مفرح اول واحد تعلمه فيه مين💃🏽؟','طبع يمكن يخليك تكره شخص حتى لو كنت تُحبه🙅🏻‍♀️؟','افضل ايام الاسبوع عندك🔖؟','يقولون ان الحياة دروس ، ماهو أقوى درس تعلمته من الحياة🏙؟','تاريخ لن تنساه📅؟','تحب الصيف والا الشتاء❄️☀️؟','شخص تحب تستفزه😈؟','شنو ينادونك وانت صغير (عيارتك)👼🏻؟','عقل يفهمك/ج ولا قلب يحبك/ج❤️؟','اول سفره لك وين رح تكون✈️؟','كم عدد اللي معطيهم بلوك👹؟','نوعية من الأشخاص تتجنبهم في حياتك❌؟','شاركنا صورة او فيديو من تصويرك؟📸','كم من عشره تعطي حظك📩؟','اكثر برنامج تواصل اجتماعي تحبه😎؟','من اي دوله انت🌍؟','اكثر دوله ودك تسافر لها🏞؟','مقولة "نكبر وننسى" هل تؤمن بصحتها🧓🏼؟','تعتقد فيه أحد يراقبك👩🏼‍💻؟','لو بيدك تغير الزمن ، تقدمه ولا ترجعه🕰؟','مشروبك المفضل🍹؟','‏قم بلصق آخر اقتباس نسخته؟💭','كم وزنك/ج طولك/ج؟🌚','كم كان عمرك/ج قبل ٨ سنين😈؟','دوله ندمت انك سافرت لها😁؟','لو قالو لك ٣ أمنيات راح تتحقق عالسريع شنو تكون🧞‍♀️؟','‏- نسبة احتياجك للعزلة من 10📊؟','شخص تحبه حظرك بدون سبب واضح، ردة فعلك🧐؟','مبدأ في الحياة تعتمد عليه دائما🕯؟',
 }  
-Text = ''..RindaTeam[math.random(#RindaTeam)]..''
+Text = ''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)]..''
 keyboard = {} 
 keyboard.inline_keyboard = {{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 Msg_id = msg.id_/2097152/0.5
@@ -6045,8 +6045,8 @@ if not Sudo(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:ChId')
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاشتراك الاجباري'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاشتراك الاجباري'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 return false  
 end
@@ -6072,7 +6072,7 @@ end end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if SudoBot(msg) then
 if text == 'اذاعه للكل بالتوجيه' and tonumber(msg.reply_to_message_id_) > 0 then
-function RindaTeam(extra,result,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,result,success)
 if DevRio:get(Rinda.."Rio:Send:Bot"..Rinda) and not RioSudo(msg) then 
 send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المطور الاساسي")
 return false
@@ -6087,7 +6087,7 @@ tdcli_function({ID="ForwardMessages", chat_id_ = v, from_chat_id_ = msg.chat_id_
 end
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰تم اذاعة رسالتك بالتوجيه \n⊀︰‏في ↢ ❨ '..#GpList..' ❩ مجموعه \n⊀︰والى ↢ ❨ '..#PvList..' ❩ مشترك \n ✓', 1, 'md')
 end
-getMessage(msg.chat_id_, tonumber(msg.reply_to_message_id_),RindaTeam)
+getMessage(msg.chat_id_, tonumber(msg.reply_to_message_id_),𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -6125,13 +6125,13 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تعطيل اطردني' and Manager(msg) and ChCheck(msg) then
 DevRio:set(Rinda.."Rio:Kick:Me"..msg.chat_id_, true)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر اطردني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر اطردني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 if text == 'تفعيل اطردني' and Manager(msg) and ChCheck(msg) then
 DevRio:del(Rinda.."Rio:Kick:Me"..msg.chat_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر اطردني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر اطردني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "نزلني" and ChCheck(msg) then
@@ -6150,23 +6150,23 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تعطيل نزلني' and BasicConstructor(msg) and ChCheck(msg) then
 DevRio:set(Rinda.."Rio:Del:Me"..msg.chat_id_, true)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر نزلني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر نزلني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 if text == 'تفعيل نزلني' and BasicConstructor(msg) and ChCheck(msg) then
 DevRio:del(Rinda.."Rio:Del:Me"..msg.chat_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر نزلني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر نزلني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and (text == 'تفعيل التاك' or text == 'تفعيل التاك للكل' or text == 'تفعيل تاك للكل') and Admin(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر تاك للكل'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امر تاك للكل'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:TagAll'..msg.chat_id_)
 end
 if text and (text == 'تعطيل التاك' or text == 'تعطيل التاك للكل' or text == 'تعطيل تاك للكل') and Admin(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر تاك للكل'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امر تاك للكل'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:TagAll'..msg.chat_id_,true)
 end
 if Admin(msg) then
@@ -6222,13 +6222,13 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰انضمام الاعضاء اليوم 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تعطيل تفاعلي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل تفاعلي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل تفاعلي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:msg:Rio'..msg.chat_id_) 
 end
 if text == "تفعيل تفاعلي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل تفاعلي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل تفاعلي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:msg:Rio'..msg.chat_id_,true)  
 end
 if DevRio:get(Rinda.."Rio:msg:Rio"..msg.chat_id_) then
@@ -6261,7 +6261,7 @@ if text == 'مسح جهاتي' or text == 'مسح اضافاتي' or text == 'ح
 if text and text:match('^هينه @(.*)') and ChCheck(msg) or text and text:match('^هينها @(.*)') and ChCheck(msg) then 
 if not DevRio:get(Rinda..'Rio:Lock:Stupid'..msg.chat_id_) then
 local username = text:match('^هينه @(.*)') or text:match('^هينها @(.*)') 
-function RindaTeam(extra,result,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,result,success)
 if result.id_ then  
 if tonumber(result.id_) == tonumber(Rinda) then  
 Dev_Rio(msg.chat_id_, msg.id_, 1, 'شو تمضرط اكو واحد يهين نفسه؟🤔👌🏿', 1, 'md')  
@@ -6279,15 +6279,15 @@ if DevRio:sismember(Rinda.."Rio:RioConstructor:"..msg.chat_id_,result.id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-local RindaTeam = "صارر ستاذيي 🏃🏻‍♂️♥️" 
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md') 
-local RindaTeam = { "لكك جرجف @"..username.." احترم اسيادكك لا اكتلكك وازربب على كبركك،💩🖐🏿","هشش لكك فاشل @"..username.." لتضل تمسلت لا اخربط تضاريس وجهك جنه ابط عبده، 😖👌🏿","حبيبي @"..username.." راح احاول احترمكك هالمره بلكي تبطل حيونه، 🤔🔪","دمشي لك @"..username.." ينبوع الفشل مو زين ملفيك ونحجي وياك هي منبوذ 😏🖕🏿","ها الغليض التفس ابو راس المربع @"..username.." متعلملك جم حجايه وجاي تطكطكهن علينه دبطل😒🔪",}
-Dev_Rio(msg.chat_id_, result.id_, 1,''..RindaTeam[math.random(#RindaTeam)], 1, 'html') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = { "لكك جرجف @"..username.." احترم اسيادكك لا اكتلكك وازربب على كبركك،💩🖐🏿","هشش لكك فاشل @"..username.." لتضل تمسلت لا اخربط تضاريس وجهك جنه ابط عبده، 😖👌🏿","حبيبي @"..username.." راح احاول احترمكك هالمره بلكي تبطل حيونه، 🤔🔪","دمشي لك @"..username.." ينبوع الفشل مو زين ملفيك ونحجي وياك هي منبوذ 😏🖕🏿","ها الغليض التفس ابو راس المربع @"..username.." متعلملك جم حجايه وجاي تطكطكهن علينه دبطل😒🔪",}
+Dev_Rio(msg.chat_id_, result.id_, 1,''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)], 1, 'html') 
 else  
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰العضو غير موجود في المجموعه', 1, 'md') 
 end 
 end 
-resolve_username(username,RindaTeam)
+resolve_username(username,𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -6310,10 +6310,10 @@ if DevRio:sismember(Rinda.."Rio:RioConstructor:"..msg.chat_id_,result.sender_use
 Dev_Rio(msg.chat_id_, msg.id_, 1, 'دي لكك تريد اهينن تاج راسكك؟😏🖕🏿', 1, 'md')
 return false
 end 
-local RindaTeam = "صارر ستاذيي 🏃🏻‍♂️♥️" 
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md') 
-local RindaTeam = {"لكك جرجف احترم اسيادكك لا اكتلكك وازربب على كبركك،💩🖐🏿","هشش فاشل لتضل تمسلت لا اخربط تضاريس وجهك جنه ابط عبده، 😖👌🏿","دمشي لك ينبوع الفشل مو زين ملفيك ونحجي وياك هي منبوذ 😏🖕🏿","ها الغليض التفس ابو راس المربع متعلملك جم حجايه وجاي تطكطكهن علينه دبطل😒🔪","حبيبي راح احاول احترمكك هالمره بلكي تبطل حيونه، 🤔🔪"} 
-Dev_Rio(msg.chat_id_, result.id_, 1,''..RindaTeam[math.random(#RindaTeam)], 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {"لكك جرجف احترم اسيادكك لا اكتلكك وازربب على كبركك،💩🖐🏿","هشش فاشل لتضل تمسلت لا اخربط تضاريس وجهك جنه ابط عبده، 😖👌🏿","دمشي لك ينبوع الفشل مو زين ملفيك ونحجي وياك هي منبوذ 😏🖕🏿","ها الغليض التفس ابو راس المربع متعلملك جم حجايه وجاي تطكطكهن علينه دبطل😒🔪","حبيبي راح احاول احترمكك هالمره بلكي تبطل حيونه، 🤔🔪"} 
+Dev_Rio(msg.chat_id_, result.id_, 1,''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)], 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
 else 
@@ -6332,10 +6332,10 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Rio(msg.chat_id_, result.id_, 1, 'مواححح احلاا بوسةة المطوريي😻🔥💗', 1, 'html')
 return false
 end 
-local RindaTeam = "صارر ستاذيي 🏃🏻‍♂️♥️" 
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md') 
-local RindaTeam = {"مواححح افيش عافيههه😍🔥💗","امممووااهحح شهلعسل🥺🍯💘","مواححح،ءوفف اذوب🤤💗"} 
-Dev_Rio(msg.chat_id_, result.id_, 1,''..RindaTeam[math.random(#RindaTeam)], 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {"مواححح افيش عافيههه😍🔥💗","امممووااهحح شهلعسل🥺🍯💘","مواححح،ءوفف اذوب🤤💗"} 
+Dev_Rio(msg.chat_id_, result.id_, 1,''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)], 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
 else 
@@ -6354,10 +6354,10 @@ if tonumber(result.sender_user_id_) == tonumber(DevId) then
 Dev_Rio(msg.chat_id_, result.id_, 1, 'تعال مطوريي محتاجيكك🏃🏻‍♂️♥️', 1, 'html')
 return false
 end 
-local RindaTeam = "صارر ستاذيي 🏃🏻‍♂️♥️" 
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md') 
-local RindaTeam = {"تتعال ححب محتاجيك🙂🍭","تعال يولل استاذكك ايريدككك😒🔪","يمعوود تعاال يريدوكك🤕♥️","تعال لكك ديصيحوك😐🖤"} 
-Dev_Rio(msg.chat_id_, result.id_, 1,''..RindaTeam[math.random(#RindaTeam)], 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = {"تتعال ححب محتاجيك🙂🍭","تعال يولل استاذكك ايريدككك😒🔪","يمعوود تعاال يريدوكك🤕♥️","تعال لكك ديصيحوك😐🖤"} 
+Dev_Rio(msg.chat_id_, result.id_, 1,''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)], 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
 else 
@@ -6369,7 +6369,7 @@ end
 if text and text:match('^صيحه @(.*)') and ChCheck(msg) or text and text:match('^صيح @(.*)') and ChCheck(msg) then 
 if not DevRio:get(Rinda..'Rio:Lock:Stupid'..msg.chat_id_) then
 local username = text:match('^صيحه @(.*)') or text:match('^صيح @(.*)') 
-function RindaTeam(extra,result,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,result,success)
 if result.id_ then  
 if tonumber(result.id_) == tonumber(Rinda) then  
 Dev_Rio(msg.chat_id_, msg.id_, 1, 'فهمنيي شلوون راحح اصيح نفسيي؟😶💔', 1, 'md')  
@@ -6379,15 +6379,15 @@ if tonumber(result.id_) == tonumber(DevId) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, 'تعال مطوريي محتاجيكك🏃🏻‍♂️♥️ @'..username, 1, 'html') 
 return false  
 end  
-local RindaTeam = "صارر ستاذيي 🏃🏻‍♂️♥️" 
-Dev_Rio(msg.chat_id_, msg.id_, 1,RindaTeam, 1, 'md') 
-local RindaTeam = { "تتعال ححب @"..username.." محتاجيك🙂🍭","تعال يولل @"..username.." استاذكك ايريدككك😒🔪","يمعوود @"..username.." تعاال يريدوكك🤕♥️","تعال لكك @"..username.." ديصيحوك😐🖤",}
-Dev_Rio(msg.chat_id_, result.id_, 1,''..RindaTeam[math.random(#RindaTeam)], 1, 'html') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = "صارر ستاذيي 🏃🏻‍♂️♥️" 
+Dev_Rio(msg.chat_id_, msg.id_, 1,𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = { "تتعال ححب @"..username.." محتاجيك🙂🍭","تعال يولل @"..username.." استاذكك ايريدككك😒🔪","يمعوود @"..username.." تعاال يريدوكك🤕♥️","تعال لكك @"..username.." ديصيحوك😐🖤",}
+Dev_Rio(msg.chat_id_, result.id_, 1,''..𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)], 1, 'html') 
 else  
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰العضو غير موجود في المجموعه', 1, 'md') 
 end 
 end 
-resolve_username(username,RindaTeam)
+resolve_username(username,𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end
 end
@@ -7328,8 +7328,8 @@ send(msg.chat_id_, msg.id_,'⊀︰لقبك ↢ '..GetCustomTitle(msg.sender_user
 end
 end
 if text == "راسلني" and ChCheck(msg) then
-RindaTeam = {"ها هلاو","انطق","كول","تفضل","احبك","عمري","لاف"};
-send(msg.sender_user_id_, 0,RindaTeam[math.random(#RindaTeam)])
+𝖱𝗂𝗇𝖣𝖺 🐍 = {"ها هلاو","انطق","كول","تفضل","احبك","عمري","لاف"};
+send(msg.sender_user_id_, 0,𝖱𝗂𝗇𝖣𝖺 🐍[math.random(#𝖱𝗂𝗇𝖣𝖺 🐍)])
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "صلاحيتي" or text == "صلاحياتي" and ChCheck(msg) then 
@@ -7368,23 +7368,23 @@ end end end
 if RioConstructor(msg) then
 if text == "تفعيل الحظر" and ChCheck(msg) or text == "تفعيل الطرد" and ChCheck(msg) then
 DevRio:del(Rinda.."Rio:Lock:KickBan"..msg.chat_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الطرد والحظر'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الطرد والحظر'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 if text == "تعطيل الحظر" and ChCheck(msg) or text == "تعطيل الطرد" and ChCheck(msg) then
 DevRio:set(Rinda.."Rio:Lock:KickBan"..msg.chat_id_,"true")
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الطرد والحظر'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الطرد والحظر'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 if text == "تفعيل الكتم" and ChCheck(msg) or text == "تفعيل التقييد" and ChCheck(msg) then
 DevRio:del(Rinda.."Rio:Lock:MuteTked"..msg.chat_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الكتم والتقيد'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الكتم والتقيد'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 if text == "تعطيل الكتم" and ChCheck(msg) or text == "تعطيل التقييد" and ChCheck(msg) then
 DevRio:set(Rinda.."Rio:Lock:MuteTked"..msg.chat_id_,"true")
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الكتم والتقيد'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الكتم والتقيد'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 end
 if RioConstructor(msg) then
@@ -8095,8 +8095,8 @@ end
 if text and text:match("^اضف رسائل (%d+)$") and msg.reply_to_message_id_ == 0 and ChCheck(msg) then  
 if Constructor(msg) then
 TXT = text:match("^اضف رسائل (%d+)$")
-DevRio:set('RindaTeam:'..Rinda..'id:user'..msg.chat_id_,TXT)  
-DevRio:setex('RindaTeam:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_, 300, true)  
+DevRio:set('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'id:user'..msg.chat_id_,TXT)  
+DevRio:setex('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."numadd:user"..msg.chat_id_.."" .. msg.sender_user_id_, 300, true)  
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل عدد الرسائل الان \n⊀︰ارسل الغاء لالغاء الامر ", 1, "md")
 Dev_Rio(msg.chat_id_, msg.id_, 1,numd, 1, 'md') 
 else 
@@ -8116,8 +8116,8 @@ end
 if text and text:match("^اضف نقاط (%d+)$") and msg.reply_to_message_id_ == 0 and ChCheck(msg) then  
 if Constructor(msg) then
 TXT = text:match("^اضف نقاط (%d+)$")
-DevRio:set('RindaTeam:'..Rinda..'ids:user'..msg.chat_id_,TXT)  
-DevRio:setex('RindaTeam:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_, 300, true)  
+DevRio:set('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda..'ids:user'..msg.chat_id_,TXT)  
+DevRio:setex('𝖱𝗂𝗇𝖣𝖺 🐍:'..Rinda.."nmadd:user"..msg.chat_id_.."" .. msg.sender_user_id_, 300, true)  
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل عدد النقاط الان \n⊀︰ارسل الغاء لالغاء الامر ", 1, "md")
 Dev_Rio(msg.chat_id_, msg.id_, 1,numd, 1, 'md') 
 else 
@@ -8145,8 +8145,8 @@ end
 tdcli_function ({ID = "PinChannelMessage",channel_id_ = msg.chat_id_:gsub("-100",""),message_id_ = msg.reply_to_message_id_,disable_notification_ = 1},function(arg,data) 
 if data.ID == "Ok" then
 DevRio:set(Rinda..'Rio:PinnedMsg'..msg.chat_id_,msg.reply_to_message_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تثبيت الرساله بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تثبيت الرساله بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false  
 end
 if data.code_ == 6 then
@@ -8576,13 +8576,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and (text == "تفعيل تحويل الصيغ" or text == "تفعيل التحويل") and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل تحويل الصيغ'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل تحويل الصيغ'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Thwel:Rio'..msg.chat_id_) 
 end
 if text and (text == "تعطيل تحويل الصيغ" or text == "تعطيل التحويل") and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل تحويل الصيغ'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل تحويل الصيغ'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Thwel:Rio'..msg.chat_id_,true)  
 end
 if text == 'تحويل' and not DevRio:get(Rinda..'Rio:Thwel:Rio'..msg.chat_id_) then  
@@ -8961,8 +8961,8 @@ end
 if SecondSudo(msg) then
 if text and text:match("^تعيين الايدي العام$") or text and text:match("^تعين الايدي العام$") or text and text:match("^تعيين كليشة الايدي$") then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰رجائا اتبع التعليمات للتعيين \n⊀︰لطبع كليشة الايدي ارسل كليشه تحتوي على النصوص التي باللغه الانجليزيه ادناه ↢ ⤈\n-----------------------------------------\n `#username` ↬ لطبع المعرف\n `#id` ↬ لطبع الايدي \n `#photos` ↬ لطبع عدد الصور \n `#stast` ↬ لطبع الرتب \n `#msgs` ↬ لطبع عدد الرسائل \n `#msgday` ↬ لطبع الرسائل اليوميه \n `#CustomTitle` ↬ لطبع اللقب \n `#bio` ↬ لطبع البايو \n `#auto` ↬ لطبع التفاعل \n `#game` ↬ لطبع عدد النقاط \n `#cont` ↬ لطبع عدد الجهات \n `#edit` ↬ لطبع عدد السحكات \n `#Description` ↬ لطبع تعليق الصور\n-----------------------------------------', 1, 'md')
-DevRio:set("Rinda:New:id:"..Rinda..msg.sender_user_id_,'RindaTeam')
-return "RindaTeam"
+DevRio:set("Rinda:New:id:"..Rinda..msg.sender_user_id_,'𝖱𝗂𝗇𝖣𝖺 🐍')
+return "𝖱𝗂𝗇𝖣𝖺 🐍"
 end
 if text and DevRio:get("Rinda:New:id:"..Rinda..msg.sender_user_id_) then 
 if text == 'الغاء' then   
@@ -8983,8 +8983,8 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and text:match("^تعيين الايدي$") and ChCheck(msg) or text and text:match("^تعين الايدي$") and ChCheck(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰رجائا اتبع التعليمات للتعيين \n⊀︰لطبع كليشة الايدي ارسل كليشه تحتوي على النصوص التي باللغه الانجليزيه ادناه ↢ ⤈\n-----------------------------------------\n `#username` ↬ لطبع المعرف\n `#id` ↬ لطبع الايدي \n `#photos` ↬ لطبع عدد الصور \n `#stast` ↬ لطبع الرتب \n `#msgs` ↬ لطبع عدد الرسائل \n `#msgday` ↬ لطبع الرسائل اليوميه \n `#CustomTitle` ↬ لطبع اللقب \n `#bio` ↬ لطبع البايو \n `#auto` ↬ لطبع التفاعل \n `#game` ↬ لطبع عدد النقاط \n `#cont` ↬ لطبع عدد الجهات \n `#edit` ↬ لطبع عدد السحكات \n `#Description` ↬ لطبع تعليق الصور\n-----------------------------------------', 1, 'md')
-DevRio:set("Rinda:New:id:"..Rinda..msg.chat_id_..msg.sender_user_id_,'RindaTeam')
-return "RindaTeam"
+DevRio:set("Rinda:New:id:"..Rinda..msg.chat_id_..msg.sender_user_id_,'𝖱𝗂𝗇𝖣𝖺 🐍')
+return "𝖱𝗂𝗇𝖣𝖺 🐍"
 end
 if text and Manager(msg) and DevRio:get("Rinda:New:id:"..Rinda..msg.chat_id_..msg.sender_user_id_) then 
 if text == 'الغاء' then   
@@ -9002,12 +9002,12 @@ ReplyStatus(msg,msg.sender_user_id_,"ReplyBy","⊀︰تم حذف كليشة ال
 DevRio:del(Rinda.."Rio:GpIds:Text"..msg.chat_id_)
 end
 end
---     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
+--     𝖲𝖮𝗎??c𝖤 𝖱𝗂𝖭d𝖺     --
 if msg.reply_to_message_id_ ~= 0 then
 return ""
 else
 if text and (text:match("^ايدي$") or text:match("^id$") or text:match("^Id$")) and ChCheck(msg) then
-function RindaTeam(extra,rio,success)
+function 𝖱𝗂𝗇𝖣𝖺 🐍(extra,rio,success)
 if rio.username_ then username = '@'..rio.username_ else username = 'لا يوجد' end
 if GetCustomTitle(msg.sender_user_id_,msg.chat_id_) ~= false then CustomTitle = GetCustomTitle(msg.sender_user_id_,msg.chat_id_) else CustomTitle = 'لا يوجد' end
 local function getpro(extra, rio, success) 
@@ -9131,7 +9131,7 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰عذرا الايدي معطل', 1, 'md
 end end end
 tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = msg.sender_user_id_, offset_ = 0, limit_ = 1 }, getpro, nil)
 end
-getUser(msg.sender_user_id_, RindaTeam)
+getUser(msg.sender_user_id_, 𝖱𝗂𝗇𝖣𝖺 🐍)
 end
 end 
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -9258,16 +9258,16 @@ if text and text == 'تفعيل الايدي بالصوره' and ChCheck(msg) th
 if not DevRio:get(Rinda..'Rio:Lock:Id:Photo'..msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰الايدي بالصوره بالتاكيد مفعل', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الايدي بالصوره'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الايدي بالصوره'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Id:Photo'..msg.chat_id_)
 end end
 if text and text == 'تعطيل الايدي بالصوره' and ChCheck(msg) then
 if DevRio:get(Rinda..'Rio:Lock:Id:Photo'..msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰الايدي بالصوره بالتاكيد معطل', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الايدي بالصوره'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الايدي بالصوره'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Id:Photo'..msg.chat_id_,true)
 end end 
 
@@ -9275,16 +9275,16 @@ if text and text == 'تفعيل الايدي' and ChCheck(msg) then
 if not DevRio:get(Rinda..'Rio:Lock:Id'..msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰الايدي بالتاكيد مفعل ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الايدي بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الايدي بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Id'..msg.chat_id_)
 end end 
 if text and text == 'تعطيل الايدي' and ChCheck(msg) then
 if DevRio:get(Rinda..'Rio:Lock:Id'..msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰الايدي بالتاكيد معطل ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الايدي بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الايدي بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Id'..msg.chat_id_,true)
 end end
 end
@@ -9312,13 +9312,13 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if Admin(msg) then
 if text and text:match("^تفعيل الترحيب$") and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الترحيب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الترحيب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Lock:Welcome"..msg.chat_id_,true)
 end
 if text and text:match("^تعطيل الترحيب$") and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الترحيب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الترحيب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Lock:Welcome"..msg.chat_id_)
 end
 if DevRio:get(Rinda..'Rio:setwelcome'..msg.chat_id_..':'..msg.sender_user_id_) then 
@@ -9525,13 +9525,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and (text == "تفعيل التلقائي" or text == "تفعيل المسح التلقائي" or text == "تفعيل الحذف التلقائي") and Constructor(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ميزة الحذف التلقائي للميديا'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ميزة الحذف التلقائي للميديا'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:CleanNum'..msg.chat_id_,true)  
 end
 if text and (text == "تعطيل التلقائي" or text == "تعطيل المسح التلقائي" or text == "تعطيل الحذف التلقائي") and Constructor(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الحذف التلقائي للميديا'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الحذف التلقائي للميديا'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:CleanNum'..msg.chat_id_) 
 end
 if text and (text:match("^تعين عدد المسح (%d+)$") or text:match("^تعيين عدد المسح (%d+)$") or text:match("^تعين عدد الحذف (%d+)$") or text:match("^تعيين عدد الحذف (%d+)$") or text:match("^عدد المسح (%d+)$")) and Constructor(msg) and ChCheck(msg) then
@@ -9569,13 +9569,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل امسح" and Constructor(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امسح بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل امسح بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Clean'..msg.chat_id_,true)  
 end
 if text == "تعطيل امسح" and Constructor(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امسح بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل امسح بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Clean'..msg.chat_id_) 
 end
 if Cleaner(msg) then
@@ -9605,13 +9605,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل مسح الاغاني" and Constructor(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل مسح الاغاني بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل مسح الاغاني بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:CleanMusic'..msg.chat_id_,true)  
 end
 if text == "تعطيل مسح الاغاني" and Constructor(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل مسح الاغاني بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل مسح الاغاني بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:CleanMusic'..msg.chat_id_) 
 end
 if CleanerMusic(msg) then
@@ -10547,13 +10547,13 @@ Dev_Rio(msg.chat_id_,0, 1, txt[2], 1, 'md')
 DeleteMessage(msg.chat_id_,{[0] = msg.id_})
 end
 if text == "تفعيل انطق" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ميزة انطق'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ميزة انطق'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Antk:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل انطق" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ميزة انطق'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ميزة انطق'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Antk:Rio'..msg.chat_id_,true)  
 end
 if text and text:match("^انطق (.*)$") and not DevRio:get(Rinda..'Rio:Antk:Rio'..msg.chat_id_) and ChCheck(msg) then
@@ -10599,13 +10599,13 @@ end,nil)
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل الزخرفه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الزخرفه بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الزخرفه بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Zrf:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل الزخرفه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الزخرفه بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الزخرفه بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Zrf:Rio'..msg.chat_id_,true)  
 end
 if DevRio:get(Rinda..'Zrf:Rio'..msg.chat_id_..msg.sender_user_id_) then 
@@ -10648,13 +10648,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل الابراج" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الابراج بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الابراج بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Brg:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل الابراج" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الابراج بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الابراج بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Brg:Rio'..msg.chat_id_,true)  
 end
 if not DevRio:get(Rinda..'Rio:Brg:Rio'..msg.chat_id_) then
@@ -10668,13 +10668,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and (text == "تفعيل اوامر النسب" or text == "تفعيل نسبه الحب" or text == "تفعيل نسبه الكره" or text == "تفعيل نسبه الرجوله" or text == "تفعيل نسبه الانوثه" or text == "تفعيل نسبه الغباء") and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اوامر النسب'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اوامر النسب'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Nsba:Rio'..msg.chat_id_) 
 end
 if text and (text == "تعطيل اوامر النسب" or text == "تعطيل نسبه الحب" or text == "تعطيل نسبه الكره" or text == "تعطيل نسبه الرجوله" or text == "تعطيل نسبه الانوثه" or text == "تعطيل نسبه الغباء") and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اوامر النسب'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اوامر النسب'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Nsba:Rio'..msg.chat_id_,true)  
 end
 if not DevRio:get(Rinda..'Rio:Nsba:Rio'..msg.chat_id_) then
@@ -10798,13 +10798,13 @@ return false
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل حساب العمر" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل حساب العمر'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل حساب العمر'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Age:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل حساب العمر" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل حساب العمر'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل حساب العمر'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Age:Rio'..msg.chat_id_,true)  
 end
 if not DevRio:get(Rinda..'Rio:Age:Rio'..msg.chat_id_) then
@@ -10818,13 +10818,13 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل معاني الاسماء" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل معاني الاسماء'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل معاني الاسماء'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Mean:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل معاني الاسماء" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل معاني الاسماء'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل معاني الاسماء'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Mean:Rio'..msg.chat_id_,true)  
 end
 if not DevRio:get(Rinda..'Rio:Mean:Rio'..msg.chat_id_) then
@@ -10838,269 +10838,269 @@ end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل متحركه" and Manager(msg) and ChCheck(msg) or text == "تفعيل المتحركه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المتحركه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المتحركه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:gif:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل متحركه" and Manager(msg) and ChCheck(msg) or text == "تعطيل المتحركه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المتحركه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المتحركه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:gif:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "متحركه" or text == "↢ متحركه ⊀") and not DevRio:get(Rinda..'Rio:gif:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(2,1075); 
-local Text ='*⊀︰تم اختيار المتحركه لك*'
+local Text ='*⊀︰ختاࢪيت المتحركه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/gif:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/gif:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendanimation?chat_id=' .. msg.chat_id_ .. '&animation=https://t.me/GifDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل ميمز" and Manager(msg) and ChCheck(msg) or text == "تفعيل الميمز" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الميمز'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الميمز'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:memz:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل ميمز" and Manager(msg) and ChCheck(msg) or text == "تعطيل الميمز" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الميمز'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الميمز'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:memz:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "ميمز" or text == "↢ ميمز ⊀") and not DevRio:get(Rinda..'Rio:memz:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(2,1201); 
-local Text ='*⊀︰تم اختيار مقطع الميمز لك*'
+local Text ='*⊀︰ختاࢪيت مقطع الميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/memz:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/memz:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/MemzDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل غنيلي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل غنيلي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل غنيلي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Audios:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل غنيلي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل غنيلي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل غنيلي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Audios:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "غنيلي" or text == "↢ غنيلي ⊀") and not DevRio:get(Rinda..'Rio:Audios:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(4,2824); 
-local Text ='*⊀︰تم اختيار المقطع الصوتي لك*'
+local Text ='*⊀︰ختاࢪيت الاغنيه اسمع وࢪيح بالك🐉*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/Song:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/Song:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/AudiosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل الاغاني" and Manager(msg) and ChCheck(msg) or text == "تفعيل اغنيه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الاغاني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الاغاني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:mp3:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل الاغاني" and Manager(msg) and ChCheck(msg) or text == "تعطيل اغنيه" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاغاني'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاغاني'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:mp3:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "اغنيه" or text == "↢ اغنيه ⊀" or text == "اغاني") and not DevRio:get(Rinda..'Rio:mp3:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(2,1167); 
-local Text ='*⊀︰تم اختيار الاغنيه لك*'
+local Text ='*⊀︰ختاࢪيت الاغنيه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendAudio?chat_id=' .. msg.chat_id_ .. '&audio=https://t.me/DavidMp3/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل ريمكس" and Manager(msg) and ChCheck(msg) or text == "تفعيل الريمكس" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الريمكس'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الريمكس'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Remix:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل ريمكس" and Manager(msg) and ChCheck(msg) or text == "تعطيل الريمكس" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الريمكس'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الريمكس'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Remix:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "ريمكس" or text == "↢ ريمكس ⊀") and not DevRio:get(Rinda..'Rio:Remix:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(2,612); 
-local Text ='*⊀︰تم اختيار الريمكس لك*'
+local Text ='*⊀︰ختاࢪيت الريمكس لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/remix:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/remix:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/RemixDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل صوره" and Manager(msg) and ChCheck(msg) or text == "تفعيل الصوره" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الصوره'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الصوره'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Photo:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل صوره" and Manager(msg) and ChCheck(msg) or text == "تعطيل الصوره" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الصوره'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الصوره'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Photo:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "صوره" or text == "↢ صوره ⊀") and not DevRio:get(Rinda..'Rio:Photo:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(4,1171); 
-local Text ='*⊀︰تم اختيار الصوره لك*'
+local Text ='*⊀︰ختاࢪيت الصوره لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/photo:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/photo:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/PhotosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل انمي" and Manager(msg) and ChCheck(msg) or text == "تفعيل الانمي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الانمي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الانمي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Anime:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل انمي" and Manager(msg) and ChCheck(msg) or text == "تعطيل الانمي" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الانمي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الانمي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Anime:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "انمي" or text == "↢ انمي ⊀") and not DevRio:get(Rinda..'Rio:Anime:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(3,1002); 
-local Text ='*⊀︰تم اختيار صورة الانمي لك*'
+local Text ='*⊀︰ختاࢪيت صورة الانمي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/anime:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/anime:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/AnimeDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل فلم" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الافلام'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الافلام'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Movies:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل فلم" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الافلام'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الافلام'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Movies:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "فلم" or text == "↢ فلم ⊀") and not DevRio:get(Rinda..'Rio:Movies:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(45,125); 
-local Text ='*⊀︰تم اختيار الفلم لك*'
+local Text ='*⊀︰ختاࢪيت الفلم لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/MoviesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تفعيل مسلسل" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المسلسلات'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المسلسلات'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Series:Rio'..msg.chat_id_) 
 end
 if text == "تعطيل مسلسل" and Manager(msg) and ChCheck(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المسلسلات'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المسلسلات'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Series:Rio'..msg.chat_id_,true)  
 end
 if text and (text == "مسلسل" or text == "↢ مسلسل ⊀") and not DevRio:get(Rinda..'Rio:Series:Rio'..msg.chat_id_) and ChCheck(msg) then
 Rio = math.random(2,54); 
-local Text ='*⊀︰تم اختيار المسلسل لك*'
+local Text ='*⊀︰ختاࢪيت المسلسل لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• مره اخرى •",callback_data="/series:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه🦋 •",callback_data="/series:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SeriesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if Admin(msg) then
 if DevRio:get(Rinda..'Rio:LockSettings'..msg.chat_id_) then 
-if text == "الروابط" then if DevRio:get(Rinda..'Rio:Lock:Links'..msg.chat_id_) then mute_links = 'مقفله' else mute_links = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الروابط ↢ "..mute_links.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "المعرف" or text == "المعرفات" then if DevRio:get(Rinda..'Rio:Lock:Tags'..msg.chat_id_) then lock_tag = 'مقفوله' else lock_tag = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰المعرف ↢ "..lock_tag.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "المتحركه" or text == "الملصقات المتحركه" then if DevRio:get(Rinda..'Rio:Lock:Gifs'..msg.chat_id_) then mute_gifs = 'مقفوله' else mute_gifs = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰المتحركه ↢ "..mute_gifs.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الملصقات" then if DevRio:get(Rinda..'Rio:Lock:Stickers'..msg.chat_id_) then lock_sticker = 'مقفوله' else lock_sticker = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الملصقات ↢ "..lock_sticker.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الصور" then if DevRio:get(Rinda..'Rio:Lock:Photo'..msg.chat_id_) then mute_photo = 'مقفوله' else mute_photo = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الصور ↢ "..mute_photo.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الفيديو" or text == "الفيديوهات" then if DevRio:get(Rinda..'Rio:Lock:Videos'..msg.chat_id_) then mute_video = 'مقفوله' else mute_video = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الفيديو ↢ "..mute_video.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الاونلاين" then if DevRio:get(Rinda..'Rio:Lock:Inline'..msg.chat_id_) then mute_in = 'مقفل' else mute_in = 'مفتوح' end local RindaTeam = "\n" .."⊀︰الاونلاين ↢ "..mute_in.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الدردشه" then if DevRio:get(Rinda..'Rio:Lock:Text'..msg.chat_id_) then mute_text = 'مقفله' else mute_text = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الدردشه ↢ "..mute_text.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "التوجيه" or text == "اعاده التوجيه" then if DevRio:get(Rinda..'Rio:Lock:Forwards'..msg.chat_id_) then lock_forward = 'مقفل' else lock_forward = 'مفتوح' end local RindaTeam = "\n" .."⊀︰التوجيه ↢ "..lock_forward.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الاغاني" then if DevRio:get(Rinda..'Rio:Lock:Music'..msg.chat_id_) then mute_music = 'مقفوله' else mute_music = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الاغاني ↢ "..mute_music.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الصوت" or text == "الصوتيات" then if DevRio:get(Rinda..'Rio:Lock:Voice'..msg.chat_id_) then mute_voice = 'مقفول' else mute_voice = 'مفتوح' end local RindaTeam = "\n" .."⊀︰الصوت ↢ "..mute_voice.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الجهات" or text == "جهات الاتصال" then if DevRio:get(Rinda..'Rio:Lock:Contact'..msg.chat_id_) then lock_contact = 'مقفوله' else lock_contact = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الجهات ↢ "..lock_contact.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الماركداون" then if DevRio:get(Rinda..'Rio:Lock:Markdown'..msg.chat_id_) then markdown = 'مقفل' else markdown = 'مفتوح' end local RindaTeam = "\n" .."⊀︰الماركداون ↢ "..markdown.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الهاشتاك" then if DevRio:get(Rinda..'Rio:Lock:Hashtak'..msg.chat_id_) then lock_htag = 'مقفل' else lock_htag = 'مفتوح' end local RindaTeam = "\n" .."⊀︰الهاشتاك ↢ "..lock_htag.."\n"Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "التعديل" then if DevRio:get(Rinda..'Rio:Lock:EditMsgs'..msg.chat_id_) then mute_edit = 'مقفل' else mute_edit = 'مفتوح' end local RindaTeam = "\n" .."⊀︰التعديل ↢ "..mute_edit.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "التثبيت" then if DevRio:get(Rinda..'Rio:Lock:Pin'..msg.chat_id_) then lock_pin = 'مقفل' else lock_pin = 'مفتوح' end local RindaTeam = "\n" .."⊀︰التثبيت ↢ "..lock_pin.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الاشعارات" then if DevRio:get(Rinda..'Rio:Lock:TagServr'..msg.chat_id_) then lock_tgservice = 'مقفوله' else lock_tgservice = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الاشعارات ↢ "..lock_tgservice.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الكلايش" then if DevRio:get(Rinda..'Rio:Lock:Spam'..msg.chat_id_) then lock_spam = 'مقفوله' else lock_spam = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الكلايش ↢ "..lock_spam.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الدخول" then if DevRio:get(Rinda..'Rio:Lock:Join'..msg.chat_id_) then lock_Join = 'مقفول' else lock_Join = 'مفتوح' end local RindaTeam = "\n" .."⊀︰الدخول ↢ "..lock_Join.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الشبكات" then if DevRio:get(Rinda..'Rio:Lock:WebLinks'..msg.chat_id_) then lock_wp = 'مقفوله' else lock_wp = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الشبكات ↢ "..lock_wp.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "المواقع" then if DevRio:get(Rinda..'Rio:Lock:Location'..msg.chat_id_) then lock_location = 'مقفوله' else lock_location = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰المواقع ↢ "..lock_location.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "العربيه" then if DevRio:get(Rinda..'Rio:Lock:Arabic'..msg.chat_id_) then lock_arabic = 'مقفوله' else lock_arabic = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰العربيه ↢ "..lock_arabic.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الانكليزيه" then if DevRio:get(Rinda..'Rio:Lock:English'..msg.chat_id_) then lock_english = 'مقفوله' else lock_english = 'مفتوحه' end local RindaTeam = "\n" .."⊀︰الانكليزيه ↢ "..lock_english.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الكفر" then if DevRio:get(Rinda..'Rio:Lock:Kfr'..msg.chat_id_) then lock_kaf = 'مفتوح' else lock_kaf = 'مقفل' end local RindaTeam = "\n" .."⊀︰الكفر ↢ "..lock_kaf.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الفشار" then if DevRio:get(Rinda..'Rio:Lock:Fshar'..msg.chat_id_) then lock_fshar = 'مفتوح' else lock_fshar = 'مقفل' end local RindaTeam = "\n" .."⊀︰الفشار ↢ "..lock_fshar.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
-if text == "الطائفيه" then if DevRio:get(Rinda..'Rio:Lock:Taf'..msg.chat_id_) then lock_taf = 'مفتوحه' else lock_taf = 'مقفله' end local RindaTeam = "\n" .."⊀︰الطائفيه ↢ "..lock_taf.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, RindaTeam, 1, 'md') end
+if text == "الروابط" then if DevRio:get(Rinda..'Rio:Lock:Links'..msg.chat_id_) then mute_links = 'مقفله' else mute_links = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الروابط ↢ "..mute_links.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "المعرف" or text == "المعرفات" then if DevRio:get(Rinda..'Rio:Lock:Tags'..msg.chat_id_) then lock_tag = 'مقفوله' else lock_tag = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰المعرف ↢ "..lock_tag.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "المتحركه" or text == "الملصقات المتحركه" then if DevRio:get(Rinda..'Rio:Lock:Gifs'..msg.chat_id_) then mute_gifs = 'مقفوله' else mute_gifs = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰المتحركه ↢ "..mute_gifs.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الملصقات" then if DevRio:get(Rinda..'Rio:Lock:Stickers'..msg.chat_id_) then lock_sticker = 'مقفوله' else lock_sticker = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الملصقات ↢ "..lock_sticker.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الصور" then if DevRio:get(Rinda..'Rio:Lock:Photo'..msg.chat_id_) then mute_photo = 'مقفوله' else mute_photo = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الصور ↢ "..mute_photo.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الفيديو" or text == "الفيديوهات" then if DevRio:get(Rinda..'Rio:Lock:Videos'..msg.chat_id_) then mute_video = 'مقفوله' else mute_video = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الفيديو ↢ "..mute_video.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الاونلاين" then if DevRio:get(Rinda..'Rio:Lock:Inline'..msg.chat_id_) then mute_in = 'مقفل' else mute_in = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الاونلاين ↢ "..mute_in.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الدردشه" then if DevRio:get(Rinda..'Rio:Lock:Text'..msg.chat_id_) then mute_text = 'مقفله' else mute_text = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الدردشه ↢ "..mute_text.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "التوجيه" or text == "اعاده التوجيه" then if DevRio:get(Rinda..'Rio:Lock:Forwards'..msg.chat_id_) then lock_forward = 'مقفل' else lock_forward = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰التوجيه ↢ "..lock_forward.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الاغاني" then if DevRio:get(Rinda..'Rio:Lock:Music'..msg.chat_id_) then mute_music = 'مقفوله' else mute_music = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الاغاني ↢ "..mute_music.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الصوت" or text == "الصوتيات" then if DevRio:get(Rinda..'Rio:Lock:Voice'..msg.chat_id_) then mute_voice = 'مقفول' else mute_voice = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الصوت ↢ "..mute_voice.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الجهات" or text == "جهات الاتصال" then if DevRio:get(Rinda..'Rio:Lock:Contact'..msg.chat_id_) then lock_contact = 'مقفوله' else lock_contact = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الجهات ↢ "..lock_contact.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الماركداون" then if DevRio:get(Rinda..'Rio:Lock:Markdown'..msg.chat_id_) then markdown = 'مقفل' else markdown = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الماركداون ↢ "..markdown.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الهاشتاك" then if DevRio:get(Rinda..'Rio:Lock:Hashtak'..msg.chat_id_) then lock_htag = 'مقفل' else lock_htag = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الهاشتاك ↢ "..lock_htag.."\n"Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "التعديل" then if DevRio:get(Rinda..'Rio:Lock:EditMsgs'..msg.chat_id_) then mute_edit = 'مقفل' else mute_edit = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰التعديل ↢ "..mute_edit.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "التثبيت" then if DevRio:get(Rinda..'Rio:Lock:Pin'..msg.chat_id_) then lock_pin = 'مقفل' else lock_pin = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰التثبيت ↢ "..lock_pin.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الاشعارات" then if DevRio:get(Rinda..'Rio:Lock:TagServr'..msg.chat_id_) then lock_tgservice = 'مقفوله' else lock_tgservice = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الاشعارات ↢ "..lock_tgservice.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الكلايش" then if DevRio:get(Rinda..'Rio:Lock:Spam'..msg.chat_id_) then lock_spam = 'مقفوله' else lock_spam = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الكلايش ↢ "..lock_spam.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الدخول" then if DevRio:get(Rinda..'Rio:Lock:Join'..msg.chat_id_) then lock_Join = 'مقفول' else lock_Join = 'مفتوح' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الدخول ↢ "..lock_Join.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الشبكات" then if DevRio:get(Rinda..'Rio:Lock:WebLinks'..msg.chat_id_) then lock_wp = 'مقفوله' else lock_wp = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الشبكات ↢ "..lock_wp.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "المواقع" then if DevRio:get(Rinda..'Rio:Lock:Location'..msg.chat_id_) then lock_location = 'مقفوله' else lock_location = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰المواقع ↢ "..lock_location.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "العربيه" then if DevRio:get(Rinda..'Rio:Lock:Arabic'..msg.chat_id_) then lock_arabic = 'مقفوله' else lock_arabic = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰العربيه ↢ "..lock_arabic.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الانكليزيه" then if DevRio:get(Rinda..'Rio:Lock:English'..msg.chat_id_) then lock_english = 'مقفوله' else lock_english = 'مفتوحه' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الانكليزيه ↢ "..lock_english.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الكفر" then if DevRio:get(Rinda..'Rio:Lock:Kfr'..msg.chat_id_) then lock_kaf = 'مفتوح' else lock_kaf = 'مقفل' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الكفر ↢ "..lock_kaf.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الفشار" then if DevRio:get(Rinda..'Rio:Lock:Fshar'..msg.chat_id_) then lock_fshar = 'مفتوح' else lock_fshar = 'مقفل' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الفشار ↢ "..lock_fshar.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
+if text == "الطائفيه" then if DevRio:get(Rinda..'Rio:Lock:Taf'..msg.chat_id_) then lock_taf = 'مفتوحه' else lock_taf = 'مقفله' end local 𝖱𝗂𝗇𝖣𝖺 🐍 = "\n" .."⊀︰الطائفيه ↢ "..lock_taf.."\n" Dev_Rio(msg.chat_id_, msg.id_, 1, 𝖱𝗂𝗇𝖣𝖺 🐍, 1, 'md') end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تفعيل كشف الاعدادات' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل كشف الاعدادات'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل كشف الاعدادات'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:LockSettings'..msg.chat_id_,true)  
 end
 if text == 'تعطيل كشف الاعدادات' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل كشف الاعدادات'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل كشف الاعدادات'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:LockSettings'..msg.chat_id_) 
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and (text == 'تعطيل التحقق' or text == 'قفل التحقق' or text == 'تعطيل تنبيه الدخول') and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل التحقق بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل التحقق بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Robot'..msg.chat_id_)
 end
 if text and (text == 'تفعيل التحقق' or text == 'فتح التحقق' or text == 'تفعيل تنبيه الدخول') and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل التحقق بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل التحقق بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Robot'..msg.chat_id_,true)
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تفعيل ردود المدير' and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ردود المدير'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ردود المدير'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:GpRed'..msg.chat_id_)
 end
 if text == 'تعطيل ردود المدير' and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ردود المدير'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ردود المدير'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:GpRed'..msg.chat_id_,true)
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تفعيل ردود المطور' and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ردود المطور'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل ردود المطور'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:AllRed'..msg.chat_id_)
 end
 if text == 'تعطيل ردود المطور' and Manager(msg) and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ردود المطور'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل ردود المطور'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:AllRed'..msg.chat_id_,true)
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if RioSudo(msg) then
 if text == 'تفعيل المغادره' or text == '↢ تفعيل المغادره ⊀' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المغادره بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل المغادره بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Left:Bot"..Rinda)
 end
 if text == 'تعطيل المغادره' or text == '↢ تعطيل المغادره ⊀' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المغادره بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل المغادره بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Left:Bot"..Rinda,true) 
 end 
 if text == 'تفعيل الاذاعه' or text == '↢ تفعيل الاذاعه ⊀' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الاذاعه بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الاذاعه بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Send:Bot"..Rinda)
 end
 if text == 'تعطيل الاذاعه' or text == '↢ تعطيل الاذاعه ⊀' and ChCheck(msg) then 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاذاعه بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاذاعه بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Send:Bot"..Rinda,true) 
 end
 end
@@ -11115,8 +11115,8 @@ end
 if data.message_ == "CHAT_ADMIN_REQUIRED" then
 send(msg.chat_id_,msg.id_,"⊀︰ليست لدي صلاحية تغير معلومات المجموعه يرجى التحقق من الصلاحيات")  
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تغير اسم المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تغير اسم المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 end,nil) 
 end
@@ -11137,8 +11137,8 @@ if data.message_ == "CHAT_ADMIN_REQUIRED" then
 send(msg.chat_id_, msg.id_,"⊀︰ليست لدي صلاحية تغير معلومات المجموعه يرجى التحقق من الصلاحيات") 
 DevRio:del(Rinda..'Rio:SetPhoto'..msg.chat_id_..':'..msg.sender_user_id_)
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تغير صورة المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تغير صورة المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end
 end,nil) 
 DevRio:del(Rinda..'Rio:SetPhoto'..msg.chat_id_..':'..msg.sender_user_id_)
@@ -11164,8 +11164,8 @@ end
 tdcli_function({ID="UnpinChannelMessage",channel_id_ = msg.chat_id_:gsub("-100","")},function(arg,data) 
 if data.ID == "Ok" then
 DevRio:del(Rinda..'Rio:PinnedMsg'..msg.chat_id_)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم الغاء تثبيت الرساله'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم الغاء تثبيت الرساله'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false  
 end
 if data.code_ == 6 then
@@ -11186,8 +11186,8 @@ return false
 end
 tdcli_function({ID="UnpinChannelMessage",channel_id_ = msg.chat_id_:gsub("-100","")},function(arg,data) 
 if data.ID == "Ok" then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم الغاء تثبيت الكل'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم الغاء تثبيت الكل'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 https.request('https://api.telegram.org/bot'..TokenBot..'/unpinAllChatMessages?chat_id='..msg.chat_id_)
 DevRio:del(Rinda.."Rio:PinnedMsg"..msg.chat_id_)
 return false  
@@ -11211,8 +11211,8 @@ end
 local PinId = DevRio:get(Rinda..'Rio:PinnedMsg'..msg.chat_id_)
 if PinId then
 Pin(msg.chat_id_,PinId,0)
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم اعادة تثبيت الرساله'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم اعادة تثبيت الرساله'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end end
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
@@ -11306,8 +11306,8 @@ if text == 'تفعيل البوت الخدمي' and ChCheck(msg) or text == '↢
 if not RioSudo(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط', 1, 'md')
 else 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل البوت الخدمي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل البوت الخدمي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:FreeBot'..Rinda) 
 end 
 end
@@ -11315,70 +11315,70 @@ if text == 'تعطيل البوت الخدمي' and ChCheck(msg) or text == '↢
 if not RioSudo(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط', 1, 'md')
 else 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل البوت الخدمي'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل البوت الخدمي'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:FreeBot'..Rinda,true) 
 end 
 end
 if ChatType == 'sp' or ChatType == 'gp'  then
 if text == 'تعطيل صورتي' and Manager(msg) and ChCheck(msg) then   
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل صورتي بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل صورتي بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Photo:Profile'..msg.chat_id_) 
 end
 if text == 'تفعيل صورتي' and Manager(msg) and ChCheck(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل صورتي بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل صورتي بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Photo:Profile'..msg.chat_id_,true)  
 end
 if text == 'تفعيل الالعاب' and Manager(msg) and ChCheck(msg) or text == 'تفعيل اللعبه' and Manager(msg) and ChCheck(msg) then   
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الالعاب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الالعاب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Games'..msg.chat_id_) 
 end
 if text == 'تعطيل الالعاب' and Manager(msg) and ChCheck(msg) or text == 'تعطيل اللعبه' and Manager(msg) and ChCheck(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الالعاب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الالعاب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Games'..msg.chat_id_,true)  
 end
 if text == 'تفعيل الالعاب المتطوره' and Manager(msg) and ChCheck(msg) or text == 'تفعيل الالعاب الاحترافيه' and Manager(msg) and ChCheck(msg) then   
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الالعاب المتطوره بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل الالعاب المتطوره بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda..'Rio:Lock:Gamesinline'..msg.chat_id_) 
 end
 if text == 'تعطيل الالعاب المتطوره' and Manager(msg) and ChCheck(msg) or text == 'تعطيل الالعاب الاحترافيه' and Manager(msg) and ChCheck(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الالعاب المتطوره بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الالعاب المتطوره بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda..'Rio:Lock:Gamesinline'..msg.chat_id_,true)  
 end
 if text == "تفعيل الرابط" and ChCheck(msg) or text == "تفعيل جلب الرابط" and ChCheck(msg) then 
 if Admin(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل جلب رابط المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل جلب رابط المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Lock:GpLinks"..msg.chat_id_)
 return false  
 end
 end
 if text == "تعطيل الرابط" and ChCheck(msg) or text == "تعطيل جلب الرابط" and ChCheck(msg) then 
 if Admin(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل جلب رابط المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل جلب رابط المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Lock:GpLinks"..msg.chat_id_,"ok")
 return false  
 end
 end
 if text == "تعطيل الرابط انلاين" and ChCheck(msg) or text == "تعطيل جلب الرابط انلاين" and ChCheck(msg) then 
 if Admin(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل جلب رابط انلاين المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل جلب رابط انلاين المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Lock:GpLinksinline"..msg.chat_id_,"ok")
 return false  
 end
 end
 if text == "تفعيل الرابط انلاين" and ChCheck(msg) or text == "تفعيل جلب الرابط انلاين" and ChCheck(msg) then 
 if Admin(msg) then
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل جلب رابط انلاين المجموعه'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل جلب رابط انلاين المجموعه'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Lock:GpLinksinline"..msg.chat_id_)
 return false  
 end
@@ -11387,8 +11387,8 @@ if text and (text == "تفعيل حذف الردود" or text == "تفعيل م�
 if not RioConstructor(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰لمالك المجموعه او اعلى فقط ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل حذف ردود المدير'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل حذف ردود المدير'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Lock:GpRd"..msg.chat_id_)
 return false  
 end
@@ -11397,8 +11397,8 @@ if text and (text == "تعطيل حذف الردود" or text == "تعطيل م�
 if not RioConstructor(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰لمالك المجموعه او اعلى فقط ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل حذف ردود المدير'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل حذف ردود المدير'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Lock:GpRd"..msg.chat_id_,true)
 return false  
 end
@@ -11407,8 +11407,8 @@ if text and (text == "تفعيل اضف رد" or text == "تفعيل اضافه 
 if not RioConstructor(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰لمالك المجموعه او اعلى فقط ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اضف رد'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اضف رد'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:Lock:Rd"..msg.chat_id_)
 return false  
 end
@@ -11417,8 +11417,8 @@ if text and (text == "تعطيل اضف رد" or text == "تعطيل اضافه 
 if not RioConstructor(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰لمالك المجموعه او اعلى فقط ', 1, 'md')
 else
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اضف رد'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اضف رد'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:Lock:Rd"..msg.chat_id_,true)
 return false  
 end
@@ -11607,8 +11607,8 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Pv"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false
 end 
 if DevRio:get(Rinda.."Rio:Send:Pv"..msg.chat_id_..":" .. msg.sender_user_id_) then 
@@ -11674,8 +11674,8 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Gp"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false
 end 
 if DevRio:get(Rinda.."Rio:Send:Gp"..msg.chat_id_..":" .. msg.sender_user_id_) then 
@@ -11741,8 +11741,8 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:FwdGp"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل الرساله الان لتوجيها \n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل الرساله الان لتوجيها \n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false
 end 
 if DevRio:get(Rinda.."Rio:Send:FwdGp"..msg.chat_id_..":" .. msg.sender_user_id_) then 
@@ -11765,8 +11765,8 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:FwdPv"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل الرساله الان لتوجيها \n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل الرساله الان لتوجيها \n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false
 end 
 if DevRio:get(Rinda.."Rio:Send:FwdPv"..msg.chat_id_..":" .. msg.sender_user_id_) then 
@@ -11789,8 +11789,8 @@ send(msg.chat_id_, msg.id_,"⊀︰الاذاعه معطله من قبل المط
 return false
 end
 DevRio:setex(Rinda.."Rio:Send:Gp:Pin"..msg.chat_id_..":" .. msg.sender_user_id_, 600, true) 
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰ارسل لي سواء ↢↯\n❨ ملف • ملصق • متحركه • صوره\n • فيديو • بصمه • صوت • رساله ❩\n⊀︰للخروج ارسل ↢ ( الغاء ) \n ✓'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 return false
 end 
 if DevRio:get(Rinda.."Rio:Send:Gp:Pin"..msg.chat_id_..":" .. msg.sender_user_id_) then 
@@ -12228,8 +12228,8 @@ if not SecondSudo(msg) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:NameBot')
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم حذف اسم البوت'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم حذف اسم البوت'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 end end 
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and text:match("^استعاده الاوامر$") and SecondSudo(msg) and ChCheck(msg) or text and text:match("^استعادة كلايش الاوامر$") and SecondSudo(msg) and ChCheck(msg) then
@@ -12244,8 +12244,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (الاوامر) ا
 DevRio:set(Rinda..'Rio:Help0'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help0'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help0'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help0'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help', text)
@@ -12286,8 +12286,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م1) الان " , 
 DevRio:set(Rinda..'Rio:Help01'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help01'..msg.sender_user_id_)
-if RindaTeam == 'msg' then 
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help01'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then 
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help01'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help1', text)
@@ -12354,8 +12354,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م2) الان " , 
 DevRio:set(Rinda..'Rio:Help21'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help21'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help21'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help21'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help2', text)
@@ -12429,8 +12429,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م3) الان " , 
 DevRio:set(Rinda..'Rio:Help31'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help31'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help31'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help31'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help3', text)
@@ -12494,8 +12494,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م4) الان " , 
 DevRio:set(Rinda..'Rio:Help41'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help41'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help41'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help41'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help4', text)
@@ -12553,8 +12553,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م5) الان " , 
 DevRio:set(Rinda..'Rio:Help51'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help51'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help51'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help51'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help5', text)
@@ -12637,8 +12637,8 @@ Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة (م6) الان " , 
 DevRio:set(Rinda..'Rio:Help61'..msg.sender_user_id_, 'msg')
 return false end
 if text and text:match("^(.*)$") then
-local RindaTeam =  DevRio:get(Rinda..'Rio:Help61'..msg.sender_user_id_)
-if RindaTeam == 'msg' then
+local 𝖱𝗂𝗇𝖣𝖺 🐍 =  DevRio:get(Rinda..'Rio:Help61'..msg.sender_user_id_)
+if 𝖱𝗂𝗇𝖣𝖺 🐍 == 'msg' then
 Dev_Rio(msg.chat_id_, msg.id_, 1, text , 1, 'md')
 DevRio:del(Rinda..'Rio:Help61'..msg.sender_user_id_)
 DevRio:set(Rinda..'Rio:Help6', text)
@@ -12795,14 +12795,14 @@ return https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?cha
 end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تفعيل اليوتيوب' and Manager(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اليوتيوب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل اليوتيوب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:del(Rinda.."Rio:WhyTube"..msg.chat_id_) 
 return false  
 end
 if text == 'تعطيل اليوتيوب' and Manager(msg) then  
-local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اليوتيوب بنجاح'
-riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
+local 𝖱𝗂𝗇𝖣𝖺 🐍 = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل اليوتيوب بنجاح'
+riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, 𝖱𝗂𝗇𝖣𝖺 🐍, 14, string.len(msg.sender_user_id_))
 DevRio:set(Rinda.."Rio:WhyTube"..msg.chat_id_,true) 
 return false  
 end 
@@ -12811,7 +12811,7 @@ if SecondSudo(msg) then
 if text == "تحديث ريندا" and ChCheck(msg) or text == "تحديث سورس" and ChCheck(msg) or text == "↢ تحديث ريندا ⊀" and ChCheck(msg) then 
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰جاري تحديث سورس ريندا', 1, 'md') 
 os.execute('rm -rf Rinda.lua') 
-os.execute('wget https://raw.githubusercontent.com/RindaTeam/Rinda/master/Rinda.lua') 
+os.execute('wget https://raw.githubusercontent.com/𝖱𝗂𝗇𝖣𝖺 🐍/Rinda/master/Rinda.lua') 
 dofile('Rinda.lua') 
 io.popen("rm -rf ../.telegram-cli/*")
 print("\27[31;47m\n          ( تم تحديث ريندا )          \n\27[0;34;49m\n") 
