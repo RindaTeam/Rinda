@@ -2535,16 +2535,15 @@ local Rio = DataText:match('/HelpList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
 local Help = DevRio:get(Rinda..'Rio:Help')
 local Text = [[
-⊀︰اهلا بك في قائمة الاوامر ↢↯
+🍧:هلوو بࢪو بقائمه اوامࢪ ࢪيندا 
 -----------------------------------------
-⊀︰م1 ↢ اوامر الحمايه
-⊀︰م2 ↢ اوامر الادمنيه
-⊀︰م3 ↢ اوامر المدراء
-⊀︰م4 ↢ اوامر المنشئين
-⊀︰م5 ↢ اوامر المطورين
-⊀︰م6 ↢ اوامر الاعضاء
------------------------------------------
-⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
+•︰اوامࢪ الحمايه
+•︰اوامࢪ الادمنيه
+•︰اوامࢪ المدراء
+•︰اوامࢪ المنشئين
+•︰اوامࢪ المطورين
+•︰اوامࢪ الاعضاء
+-----------------------------------------⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="• اوامر الادمنيه •",callback_data="/HelpList2:"..data.sender_user_id_},{text="• اوامر الحمايه •",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="• اوامر المنشئين •",callback_data="/HelpList4:"..data.sender_user_id_},{text="• اوامر المدراء •",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="• اوامر الاعضاء •",callback_data="/HelpList6:"..data.sender_user_id_},{text="• اوامر المطورين •",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اوامر الرتب •",callback_data="/DelList:"..data.sender_user_id_}},{{text="• التفعيل و التعطيل •",callback_data="/lockorder:"..data.sender_user_id_},{text="• القفل و الفتح •",callback_data="/locklist:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}}}
@@ -3591,7 +3590,7 @@ end end
 if text and text:match("^غادر (-%d+)$")  then
 local Text = { string.match(text, "^(غادر) (-%d+)$")}
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ', 1, 'md')
 else 
 tdcli_function({ID ="GetChat",chat_id_=Text[2]},function(arg,dp) 
 if dp.id_ then
@@ -6018,7 +6017,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تعيين قناة الاشتراك" or text == "تغيير قناة الاشتراك" or text == "تعيين الاشتراك الاجباري" or text == "وضع قناة الاشتراك" or text == "↢ تعيين قناة الاشتراك ⊀" then
 if not Sudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 DevRio:setex(Rinda..'DevRio4'..msg.sender_user_id_,360,true)
 send(msg.chat_id_, msg.id_, '⊀︰ارسل لي معرف قناة الاشتراك الان')
@@ -6027,7 +6026,7 @@ return false
 end
 if text == "تفعيل الاشتراك الاجباري" or text == "↢  تفعيل الاشتراك الاجباري ⊀" then  
 if not Sudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 if DevRio:get(Rinda..'Rio:ChId') then
 local Check = https.request('https://api.telegram.org/bot'..TokenBot..'/getChat?chat_id='..DevRio:get(Rinda.."Rio:ChId"))
@@ -6042,7 +6041,7 @@ return false
 end
 if text == "تعطيل الاشتراك الاجباري" or text == "↢  تعطيل الاشتراك الاجباري ⊀" then  
 if not Sudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:ChId')
 local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل الاشتراك الاجباري'
@@ -6052,7 +6051,7 @@ return false
 end
 if text == "حذف قناة الاشتراك" or text == "حذف قناه الاشتراك" or text == "↢ حذف قناة الاشتراك ⊀" then
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:ChId')
 Dev_Rio(msg.chat_id_, msg.id_, 1,"⊀︰تم حذف قناة الاشتراك الاجباري", 1, 'md') 
@@ -9476,7 +9475,7 @@ end,nil)
 end
 return false
 end
---     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
+--     ??𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == "تنظيف الكروبات" and SecondSudo(msg) and ChCheck(msg) or text == "تنظيف المجموعات" and SecondSudo(msg) and ChCheck(msg) or text == "↢ تنظيف المجموعات ⊀" and SecondSudo(msg) and ChCheck(msg) then 
 local group = DevRio:smembers(Rinda.."Rio:Groups")
 local w = 0
@@ -11304,7 +11303,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'تفعيل البوت الخدمي' and ChCheck(msg) or text == '↢ تفعيل البوت الخدمي ⊀' and ChCheck(msg) then 
 if not RioSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ', 1, 'md')
 else 
 local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تفعيل البوت الخدمي'
 riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
@@ -11313,7 +11312,7 @@ end
 end
 if text == 'تعطيل البوت الخدمي' and ChCheck(msg) or text == '↢ تعطيل البوت الخدمي ⊀' and ChCheck(msg) then 
 if not RioSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ', 1, 'md')
 else 
 local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم تعطيل البوت الخدمي'
 riomoned(msg.chat_id_, msg.sender_user_id_, msg.id_, RindaTeam, 14, string.len(msg.sender_user_id_))
@@ -11578,7 +11577,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'روابط الكروبات' or text == 'روابط المجموعات' or text == '↢ روابط المجموعات ⊀' then
 if not RioSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 local List = DevRio:smembers(Rinda.."Rio:Groups")
 if #List == 0 then
@@ -12216,7 +12215,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and text == "تغيير اسم البوت" and ChCheck(msg) or text and text == "وضع اسم البوت" and ChCheck(msg) or text and text == "تغير اسم البوت" and ChCheck(msg) then
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل لي اسم البوت الان" ,  1, "md") 
 DevRio:set(Rinda..'Rio:NameBot'..msg.sender_user_id_, 'msg')
@@ -12225,7 +12224,7 @@ end
 end
 if text and text == 'حذف اسم البوت' and ChCheck(msg) or text == 'مسح اسم البوت' and ChCheck(msg) then
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:NameBot')
 local RindaTeam = '⊀︰اهلا عزيزي ↢ '..RioRank(msg)..' \n⊀︰تم حذف اسم البوت'
@@ -12255,16 +12254,15 @@ end
 if text == "الاوامر" and ChCheck(msg) or text == "اوامر" and ChCheck(msg) or text == "مساعده" and ChCheck(msg) then
 local Help = DevRio:get(Rinda..'Rio:Help')
 local Text = [[
-⊀︰اهلا بك في قائمة الاوامر ↢↯
+🍧:هلوو بࢪو بقائمه اوامࢪ ࢪيندا 
 -----------------------------------------
-⊀︰م1 ↢ اوامر الحمايه
-⊀︰م2 ↢ اوامر الادمنيه
-⊀︰م3 ↢ اوامر المدراء
-⊀︰م4 ↢ اوامر المنشئين
-⊀︰م5 ↢ اوامر المطورين
-⊀︰م6 ↢ اوامر الاعضاء
------------------------------------------
-⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
+•︰اوامࢪ الحمايه
+•︰اوامࢪ الادمنيه
+•︰اوامࢪ المدراء
+•︰اوامࢪ المنشئين
+•︰اوامࢪ المطورين
+•︰اوامࢪ الاعضاء
+-----------------------------------------⊀︰[⊀ 𝖱𝗂𝗇𝖣𝖺 🐲](https://t.me/Source_Rinda)
 ]] 
 keyboard = {} 
 if SudoBot(msg) then
@@ -13000,14 +12998,14 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and text:match("^ضع كليشه المطور$") or text and text:match("^وضع كليشه المطور$") or text and text:match("^تغيير كليشه المطور$") or text and text:match("^↢ تغيير كليشه المطور ⊀$") and ChCheck(msg) then
 if not Sudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ارسل كليشة المطور الان ", 1, "md")
 DevRio:setex(Rinda.."Rio:DevText"..msg.chat_id_..":" .. msg.sender_user_id_, 300, true)
 end end
 if text and text:match("^مسح كليشه المطور$") or text and text:match("^حذف كليشه المطور$") then
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰تم حذف كليشة المطور", 1, "md")
 DevRio:del(Rinda.."DevText")
@@ -13030,7 +13028,7 @@ Dev_Rio(msg.chat_id_, msg.id_, 1,text, 1, 'md')
 end
 if text == "حذف كليشه الاشتراك الاجباري" or text == "↢ حذف كليشه الاشتراك ⊀" then  
 if not Sudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 DevRio:del(Rinda..'Rio:ChText')
 textt = "⊀︰تم حذف كليشة الاشتراك الاجباري"
@@ -13038,7 +13036,7 @@ Dev_Rio(msg.chat_id_, msg.id_, 1,textt, 1, 'md')
 end end
 if text == 'كليشه الاشتراك' or text == 'جلب كليشه الاشتراك' or text == '↢ كليشه الاشتراك ⊀' then
 if not SecondSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 local chtext = DevRio:get(Rinda.."Rio:ChText")
 if chtext then
@@ -13085,7 +13083,7 @@ end
 --     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text == 'معلومات السيرفر' or text == 'السيرفر' or text == '↢ السيرفر ⊀' then 
 if not RioSudo(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰للمطور الاساسي فقط ', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰بس المطوࢪ الاساسي يڪدࢪ ', 1, 'md')
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, io.popen([[
 LinuxVersion=`lsb_release -ds`
