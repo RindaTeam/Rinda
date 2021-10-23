@@ -2525,7 +2525,7 @@ end
 if DataText and DataText:match('/HideHelpList:(.*)') then
 local Rio = DataText:match('/HideHelpList:(.*)')
 if tonumber(Rio) == tonumber(data.sender_user_id_) then
-EditMsg(Chat_Id2, Msg_Id2, "⊀︰تم اخفاء كليشة الاوامر") 
+EditMsg(Chat_Id2, Msg_Id2, "⊀︰تم يعمࢪي خفيت ڪليشه الاوامࢪ🍧") 
 else
 return https.request("https://api.telegram.org/bot"..TokenBot..'/answercallbackquery?callback_query_id='..data.id_..'&text='..URL.escape("⊀ عذرا الامر ليس لك .")..'&show_alert=true')
 end
