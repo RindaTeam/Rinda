@@ -1369,7 +1369,7 @@ keyboard.inline_keyboard = {{{text="• رفع مميز •",callback_data=data.
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="• رفع مميز •",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="• رفع ادمن •",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="• رفع منشئ •",callback_data=data.sender_user_id_..":SetConstructor:"..Rio},{text="• رفع مدير •",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text="• رفع منظف •",callback_data=data.sender_user_id_..":SetCleaner:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="• رفع مميز •",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="• رفع ادمن •",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="• رفع منظف •",callback_data=data.sender_user_id_..":SetCleaner:"..Rio},{text="• رفع مدير •",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text = '• Rinda TeAM •',url="t.me/Source_Rinda"}}}
+keyboard.inline_keyboard = {{{text="• رفع مميز •",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="• رفع ادمن •",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="• رفع منظف •",callback_data=data.sender_user_id_..":SetCleaner:"..Rio},{text="• رفع مدير •",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="• رفع مميز •",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="• رفع ادمن •",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Admin(data) then
@@ -1401,7 +1401,7 @@ keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=d
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منشئ •",callback_data=data.sender_user_id_..":RemConstructor:"..Rio},{text="• تنزيل مدير •",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text="• تنزيل منظف •",callback_data=data.sender_user_id_..":RemCleaner:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منظف •",callback_data=data.sender_user_id_..":RemCleaner:"..Rio},{text="• تنزيل مدير •",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text = '• Rinda TeAM •',url="t.me/Source_Rinda"}}}
+keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منظف •",callback_data=data.sender_user_id_..":RemCleaner:"..Rio},{text="• تنزيل مدير •",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Admin(data) then
@@ -5199,7 +5199,7 @@ name = string.gsub(name,'🥅','🥅')
 name = string.gsub(name,'🎰','🎰')
 name = string.gsub(name,'🎮','🎮')
 name = string.gsub(name,'🎳','🎳')
-name = string.gsub(name,'🎯','??')
+name = string.gsub(name,'🎯','🎯')
 name = string.gsub(name,'🏆','🏆')
 name = string.gsub(name,'🎻','🎻')
 name = string.gsub(name,'🎸','🎸')
@@ -5889,7 +5889,7 @@ keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=m
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منشئ •",callback_data=msg.sender_user_id_..":RemConstructor:"..Rio},{text="• تنزيل مدير •",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text="• تنزيل منظف •",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منظف •",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio},{text="• تنزيل مدير •",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text = '• Rinda TeAM •',url="t.me/Source_Rinda"}}}
+keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="• تنزيل منظف •",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio},{text="• تنزيل مدير •",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="• تنزيل مميز •",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="• تنزيل ادمن •",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text = '• TeAm Rinda •',url="t.me/Source_Rinda"}}}
 elseif Admin(data) then
@@ -6256,7 +6256,7 @@ if text == "تعديلاتي" or text == "سحكاتي" and ChCheck(msg) then lo
 if text == "رتبتي" and ChCheck(msg) then Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰رتبتك ↢ '..IdRank(msg.sender_user_id_, msg.chat_id_), 1, 'html') end
 if text == "ايدي المجموعه" and ChCheck(msg) then Dev_Rio(msg.chat_id_, msg.id_, 1, "⊀︰ايدي المجموعه ↢ `"..msg.chat_id_.."`", 1, 'md') end
 if text == 'مسح جهاتي' or text == 'مسح اضافاتي' or text == 'حذف جهاتي' or text == 'حذف اضافاتي' then DevRio:del(Rinda..'Rio:ContactNumber'..msg.chat_id_..':'..msg.sender_user_id_) Dev_Rio(msg.chat_id_, msg.id_, 1, '⊀︰تم حذف جميع جهاتك المضافه' , 1, 'md') end
---     𝖲𝖮𝗎𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
+--     𝖲𝖮??𝖱c𝖤 𝖱𝗂𝖭d𝖺     --
 if text and text:match('^هينه @(.*)') and ChCheck(msg) or text and text:match('^هينها @(.*)') and ChCheck(msg) then 
 if not DevRio:get(Rinda..'Rio:Lock:Stupid'..msg.chat_id_) then
 local username = text:match('^هينه @(.*)') or text:match('^هينها @(.*)') 
@@ -10850,7 +10850,7 @@ if text and (text == "متحركه" or text == "↢ متحركه ⊀") and not D
 Rio = math.random(2,1075); 
 local Text ='*⊀︰ختاࢪيت المتحركه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/gif:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/gif:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendanimation?chat_id=' .. msg.chat_id_ .. '&animation=https://t.me/GifDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10869,7 +10869,7 @@ if text and (text == "ميمز" or text == "↢ ميمز ⊀") and not DevRio:ge
 Rio = math.random(2,1201); 
 local Text ='*⊀︰ختاࢪيت مقطع الميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/memz:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/memz:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/MemzDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10888,7 +10888,7 @@ if text and (text == "غنيلي" or text == "↢ غنيلي ⊀") and not DevRi
 Rio = math.random(4,2824); 
 local Text ='*⊀︰ختاࢪيت الاغنيه اسمع وࢪيح بالك🐉*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/Song:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/Song:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/AudiosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10907,7 +10907,7 @@ if text and (text == "اغنيه" or text == "↢ اغنيه ⊀" or text == "ا
 Rio = math.random(2,1167); 
 local Text ='*⊀︰ختاࢪيت الاغنيه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendAudio?chat_id=' .. msg.chat_id_ .. '&audio=https://t.me/DavidMp3/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10926,7 +10926,7 @@ if text and (text == "ريمكس" or text == "↢ ريمكس ⊀") and not DevRi
 Rio = math.random(2,612); 
 local Text ='*⊀︰ختاࢪيت الريمكس لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/remix:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/remix:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/RemixDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10945,7 +10945,7 @@ if text and (text == "صوره" or text == "↢ صوره ⊀") and not DevRio:ge
 Rio = math.random(4,1171); 
 local Text ='*⊀︰ختاࢪيت الصوره لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/photo:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/photo:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/PhotosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10964,7 +10964,7 @@ if text and (text == "انمي" or text == "↢ انمي ⊀") and not DevRio:ge
 Rio = math.random(3,1002); 
 local Text ='*⊀︰ختاࢪيت صورة الانمي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/anime:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/anime:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/AnimeDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -10983,7 +10983,7 @@ if text and (text == "فلم" or text == "↢ فلم ⊀") and not DevRio:get(Ri
 Rio = math.random(45,125); 
 local Text ='*⊀︰ختاࢪيت الفلم لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/MoviesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11002,7 +11002,7 @@ if text and (text == "مسلسل" or text == "↢ مسلسل ⊀") and not DevRi
 Rio = math.random(2,54); 
 local Text ='*⊀︰ختاࢪيت المسلسل لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/series:"..msg.sender_user_id_}},{{text = '• Rinda Team •',url="t.me/Source_Rinda"}}} 
+keyboard.inline_keyboard = {{{text="• غيࢪهه •",callback_data="/series:"..msg.sender_user_id_}},{{text = '• 𝖱𝗂𝗇𝖣𝖺 𝖳𝖾𝖺𝖬 •',url="t.me/Source_Rinda"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SeriesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
